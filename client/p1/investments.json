@@ -1,0 +1,409 @@
+{
+    "id": "39",
+    "page_name": "investments",
+    "title": "Investments",
+    "blog_title": "What's <span>New?<\/span>",
+    "visit_website": {
+        "url": "https:\/\/peerlesssec.co.in\/",
+        "link_text": ""
+    },
+    "metatags": {
+        "abstract": "Peerless One",
+        "description": "Unlock your financial potential with Peerless Group's strategic investment offerings. From diverse portfolios to expert guidance, we pave the way for your financial success. Explore our investment solutions and embark on a journey of prosperity.",
+        "keywords": "Investments",
+        "og_description": "Unlock your financial potential with Peerless Group's strategic investment offerings. From diverse portfolios to expert guidance, we pave the way for your financial success. Explore our investment solutions and embark on a journey of prosperity.",
+        "og_determiner": "Peerless One",
+        "og_image": [
+            "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-09\/investments.jpg"
+        ],
+        "og_image_alt": "Investments",
+        "og_image_height": "630",
+        "og_image_secure_url": [
+            "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-09\/investments.jpg"
+        ],
+        "og_image_type": "jpeg",
+        "og_image_url": [
+            "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-09\/investments.jpg"
+        ],
+        "og_image_width": "1200",
+        "og_site_name": "Peerless One",
+        "og_title": "Empowering Growth through Peerless Group Investment Opportunities",
+        "og_url": "https:\/\/cms.peerlessone.in\/investments",
+        "title": "Empowering Growth through Peerless Group Investment Opportunities",
+        "canonical_url": "https:\/\/cms.peerlessone.in\/investments",
+        "robots": "index, follow"
+    },
+    "banner": {
+        "banner_title": [
+            {
+                "value": "Investments"
+            }
+        ],
+        "sub_title": [
+            {
+                "value": "Your way to Success"
+            }
+        ],
+        "banner_featured_image": [
+            {
+                "target_id": "598",
+                "alt": "Investments banner",
+                "title": "",
+                "width": "1820",
+                "height": "770",
+                "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-08\/investments_banner.jpg"
+            }
+        ],
+        "banner_icon": [
+            {
+                "target_id": "100",
+                "alt": "Investments icon",
+                "title": "",
+                "width": "38",
+                "height": "38",
+                "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/investments.svg"
+            }
+        ],
+        "banner_logo": [
+            {
+                "target_id": "101",
+                "alt": "Investments logo",
+                "title": "",
+                "width": "314",
+                "height": "104",
+                "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/peerless-securities-logo.jpg"
+            }
+        ]
+    },
+    "our_story": {
+        "our_story_title": [
+            {
+                "value": "Our"
+            }
+        ],
+        "sub_title": [
+            {
+                "value": "Story"
+            }
+        ],
+        "top_heading": [],
+        "body": [
+            {
+                "value": "<p>Incorporated in 1995, Peerless Securities has played a pivotal role as it is the only SEBI-registered Financial Intermediary Company within the Peerless Group.&nbsp;<br>Peerless Securities offers a plethora of services, including broking services to Retail &amp; Institutional clients in Equities, Derivatives, Commodities, and Currency through its membership of the National Stock Exchange (NSE), Bombay Stock Exchange (BSE) and Multi Commodity Exchange (MCX).&nbsp;<br>Peerless Securities Ltd. is registered with National Securities Depository Ltd. (NSDL) as a Depository participant to serve its clients for their DEMAT and repository needs. It is also an ARN holder for Mutual Funds distribution.<br>&nbsp;<\/p>",
+                "summary": "",
+                "format": "full_html"
+            }
+        ],
+        "our_story_image": [
+            {
+                "target_id": "103",
+                "alt": "Investments Our Story",
+                "title": "",
+                "width": "728",
+                "height": "244",
+                "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/rate-us-popup-bg_0.png"
+            }
+        ],
+        "banner_logo": [
+            {
+                "image_url": null
+            }
+        ],
+        "linkItemsData": [],
+        "address": [],
+        "services": [
+            {
+                "service_name": "Advisory <span>Services<\/span>",
+                "service_icon": [
+                    {
+                        "name": "Advisory Services",
+                        "id": "26",
+                        "image": [
+                            {
+                                "target_id": "98",
+                                "alt": "service icon",
+                                "title": "",
+                                "width": "43",
+                                "height": "38",
+                                "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/service-icon.svg"
+                            }
+                        ]
+                    }
+                ],
+                "sub_service_data": [
+                    {
+                        "service_name": "Equity & Derivative Broking",
+                        "service_link": {
+                            "url": "https:\/\/peerlesssec.co.in\/Product\/Equity",
+                            "link_text": ""
+                        },
+                        "service_icon": [
+                            {
+                                "target_id": "271",
+                                "alt": "Equity & Derivative Broking",
+                                "title": "",
+                                "width": "64",
+                                "height": "64",
+                                "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/equity-icon.png"
+                            }
+                        ],
+                        "link_icon": [
+                            {
+                                "name": "Button Arrow",
+                                "id": "25",
+                                "image": [
+                                    {
+                                        "target_id": "97",
+                                        "alt": "button arrow",
+                                        "title": "",
+                                        "width": "14",
+                                        "height": "12",
+                                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/button-arrow.svg"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "service_name": "Currency & Commodity Trading",
+                        "service_link": {
+                            "url": "https:\/\/peerlesssec.co.in\/Product\/Currency",
+                            "link_text": ""
+                        },
+                        "service_icon": [
+                            {
+                                "target_id": "272",
+                                "alt": "Currency & Commodity Trading",
+                                "title": "",
+                                "width": "64",
+                                "height": "64",
+                                "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/debt-icon.png"
+                            }
+                        ],
+                        "link_icon": [
+                            {
+                                "name": "Button Arrow",
+                                "id": "25",
+                                "image": [
+                                    {
+                                        "target_id": "97",
+                                        "alt": "button arrow",
+                                        "title": "",
+                                        "width": "14",
+                                        "height": "12",
+                                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/button-arrow.svg"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "service_name": "Depository Services",
+                        "service_link": {
+                            "url": "https:\/\/peerlesssec.co.in\/Product\/Depository",
+                            "link_text": ""
+                        },
+                        "service_icon": [
+                            {
+                                "target_id": "273",
+                                "alt": "Depository Services",
+                                "title": "",
+                                "width": "64",
+                                "height": "64",
+                                "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/depository-icon.png"
+                            }
+                        ],
+                        "link_icon": [
+                            {
+                                "name": "Button Arrow",
+                                "id": "25",
+                                "image": [
+                                    {
+                                        "target_id": "97",
+                                        "alt": "button arrow",
+                                        "title": "",
+                                        "width": "14",
+                                        "height": "12",
+                                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/button-arrow.svg"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "service_name": "Financial Products & Mutual Fund Distribution",
+                        "service_link": {
+                            "url": "https:\/\/peerlesssec.co.in\/Product\/FPD",
+                            "link_text": ""
+                        },
+                        "service_icon": [
+                            {
+                                "target_id": "274",
+                                "alt": "Financial Products & Mutual Fund Distribution",
+                                "title": "",
+                                "width": "64",
+                                "height": "64",
+                                "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/financial-icon.png"
+                            }
+                        ],
+                        "link_icon": [
+                            {
+                                "name": "Button Arrow",
+                                "id": "25",
+                                "image": [
+                                    {
+                                        "target_id": "97",
+                                        "alt": "button arrow",
+                                        "title": "",
+                                        "width": "14",
+                                        "height": "12",
+                                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/button-arrow.svg"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "service_name": "Central Dealing Desk",
+                        "service_link": {
+                            "url": "https:\/\/peerlesssec.co.in\/Product\/CSD",
+                            "link_text": ""
+                        },
+                        "service_icon": [
+                            {
+                                "target_id": "275",
+                                "alt": "Central Dealing Desk",
+                                "title": "",
+                                "width": "64",
+                                "height": "64",
+                                "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/research-icon.png"
+                            }
+                        ],
+                        "link_icon": [
+                            {
+                                "name": "Button Arrow",
+                                "id": "25",
+                                "image": [
+                                    {
+                                        "target_id": "97",
+                                        "alt": "button arrow",
+                                        "title": "",
+                                        "width": "14",
+                                        "height": "12",
+                                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/button-arrow.svg"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "service_name": "Online Mutual Fund",
+                        "service_link": {
+                            "url": "https:\/\/peerlesssec.investwell.app\/app\/#\/login",
+                            "link_text": ""
+                        },
+                        "service_icon": [
+                            {
+                                "target_id": "276",
+                                "alt": "Client Login",
+                                "title": "",
+                                "width": "64",
+                                "height": "64",
+                                "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/corporate-icon.png"
+                            }
+                        ],
+                        "link_icon": [
+                            {
+                                "name": "Button Arrow",
+                                "id": "25",
+                                "image": [
+                                    {
+                                        "target_id": "97",
+                                        "alt": "button arrow",
+                                        "title": "",
+                                        "width": "14",
+                                        "height": "12",
+                                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/button-arrow.svg"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "service_name": "Online Account Opening",
+                        "service_link": {
+                            "url": "https:\/\/pslapp.peerlesssec.com\/ekyc",
+                            "link_text": "Open an account"
+                        },
+                        "service_icon": [
+                            {
+                                "target_id": "769",
+                                "alt": "Online Account Opening",
+                                "title": "",
+                                "width": "64",
+                                "height": "64",
+                                "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2024-04\/invest-open-icon_0.png"
+                            }
+                        ],
+                        "link_icon": [
+                            {
+                                "name": "Button Arrow",
+                                "id": "25",
+                                "image": [
+                                    {
+                                        "target_id": "97",
+                                        "alt": "button arrow",
+                                        "title": "",
+                                        "width": "14",
+                                        "height": "12",
+                                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/button-arrow.svg"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "service_name": "Gen Z Mobile Trading App PSMART",
+                        "service_link": {
+                            "url": "https:\/\/peerlesssec.co.in\/PSLOnline\/PSMART",
+                            "link_text": ""
+                        },
+                        "service_icon": [
+                            {
+                                "target_id": "772",
+                                "alt": "Gen Z Mobile Trading App PSMART",
+                                "title": "",
+                                "width": "50",
+                                "height": "64",
+                                "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2024-05\/psmart-app-icn.png"
+                            }
+                        ],
+                        "link_icon": [
+                            {
+                                "name": "Button Arrow",
+                                "id": "25",
+                                "image": [
+                                    {
+                                        "target_id": "97",
+                                        "alt": "button arrow",
+                                        "title": "",
+                                        "width": "14",
+                                        "height": "12",
+                                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/button-arrow.svg"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "hide_section": "false"
+    },
+    "skill_academy": null,
+    "headline_data": null,
+    "housing_data": null,
+    "housing_project": null,
+    "our_story_bottom": null,
+    "football_data": null
+}

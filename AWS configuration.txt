@@ -1,0 +1,36 @@
+User name: admin	
+Password: Peerless@1932	
+Console sign-in URL: https://882659181532.signin.aws.amazon.com/console
+
+
+MongoDb:
+peerlessone@peerless.co.in
+Andr0id@123
+2-factor auth with Authenticator
+
+
+
+https://www.notes2free.com/blogs/deploy-mern-state-application-in-aws-ec2
+https://www.notes2free.com/blogs/deploy-mern-state-application-in-aws-ec2
+
+https://blog.learncodeonline.in/deploy-a-mern-application-to-aws-ec2-instance-using-nginx-server
+
+https://www.workfall.com/learning/blog/how-to-build-and-deploy-a-mern-stack-application-on-aws/
+
+https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-22-04
+
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh
+
+sudo apt-get remove nodejs
+sudo apt-get purge nodejs
+sudo apt-get autoremove
+
+
+sudo systemctl stop nginx
+sudo systemctl start nginx
+sudo systemctl restart nginx
+
+sudo systemctl reload nginx
+
+sudo mkdir -p /var/www/your_domain/html
+sudo chown -R $USER:$USER /var/www/your_domain/html

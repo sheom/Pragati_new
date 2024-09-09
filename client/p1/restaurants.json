@@ -1,0 +1,785 @@
+{
+    "id": "33",
+    "page_name": "Restaurants",
+    "title": "Restaurants",
+    "blog_title": "What's <span>New?<\/span>",
+    "visit_website": {
+        "url": "https:\/\/peerlesshotels.com\/the-peerless-inn.php",
+        "link_text": ""
+    },
+    "metatags": {
+        "abstract": "Peerless One",
+        "description": "Indulge in a culinary journey like no other at Peerless Group Restaurants. From delectable dishes to inviting ambience, we offer an exceptional dining experience that delights all senses. Explore our diverse menu and create cherished memories.",
+        "keywords": "Restaurants, Aaheli",
+        "og_description": "Indulge in a culinary journey like no other at Peerless Group Restaurants. From delectable dishes to inviting ambience, we offer an exceptional dining experience that delights all senses. Explore our diverse menu and create cherished memories.",
+        "og_determiner": "Peerless One",
+        "og_image": [
+            "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-09\/restaurant.jpg"
+        ],
+        "og_image_alt": "Restaurants",
+        "og_image_height": "630",
+        "og_image_secure_url": [
+            "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-09\/restaurant.jpg"
+        ],
+        "og_image_type": "jpeg",
+        "og_image_url": [
+            "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-09\/restaurant.jpg"
+        ],
+        "og_image_width": "1200",
+        "og_site_name": "Peerless One",
+        "og_title": "Culinary Excellence at Peerless Group Restaurants: Savor Unforgettable Flavors",
+        "og_url": "https:\/\/cms.peerlessone.in\/restaurants",
+        "title": "Culinary Excellence at Peerless Group Restaurants: Savor Unforgettable Flavors",
+        "canonical_url": "https:\/\/cms.peerlessone.in\/restaurants",
+        "robots": "index, follow"
+    },
+    "banner": {
+        "banner_title": [
+            {
+                "value": "Restaurants"
+            }
+        ],
+        "sub_title": [
+            {
+                "value": "Unmatched Hospitality"
+            }
+        ],
+        "banner_featured_image": [
+            {
+                "target_id": "94",
+                "alt": "Restaurants",
+                "title": "",
+                "width": "1820",
+                "height": "770",
+                "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-06\/restaurant-banner_0.jpg"
+            }
+        ],
+        "banner_icon": [
+            {
+                "target_id": "96",
+                "alt": "Restaurant icon ",
+                "title": "",
+                "width": "38",
+                "height": "38",
+                "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-06\/restaurants.svg"
+            }
+        ],
+        "banner_logo": [
+            {
+                "target_id": "742",
+                "alt": "Hotel banner logo",
+                "title": "",
+                "width": "136",
+                "height": "62",
+                "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2024-01\/0_Peerless_Hotels_Resorts_0.png"
+            }
+        ]
+    },
+    "our_story": {
+        "our_story_title": [
+            {
+                "value": "An award-winning"
+            }
+        ],
+        "sub_title": [
+            {
+                "value": "Bengali restaurant"
+            }
+        ],
+        "top_heading": [],
+        "body": [
+            {
+                "value": "<p>Aaheli, an award-winning Bengali restaurant, opened in 1993 with its first and flagship restaurant located in The Peerless Hotel, Kolkata. It was the first fine-dining Bengali cuisine restaurant in Kolkata, possibly India.&nbsp;<br>It offers authentic Bengali cuisine, and its name is derived from the Arabic word \"Aahel\", meaning \"authentic\". It has always been a reflection of Bengal's culture -from the madur (woven mat) on the tables and batik-print cloth napkins to the traditional food that is served.&nbsp;<br>In its menu, the long-lost recipes of the older generation, the specially curated menu of Rajbaris, recipes of all districts of Bengal, and the forgotten recipes of households find their place.&nbsp;<br>Over the years, Aaheli has won numerous awards and accolades. Apart from the flagship restaurant, there are two more Aaheli outlets in Kolkata, located at Axis Mall and Sarat Bose Road respectively.<\/p>",
+                "summary": "",
+                "format": "full_html"
+            }
+        ],
+        "our_story_image": [
+            {
+                "target_id": "335",
+                "alt": "Restaurants Our story",
+                "title": "",
+                "width": "590",
+                "height": "661",
+                "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/restaurant_0.png"
+            }
+        ],
+        "banner_logo": [
+            {
+                "image_url": null
+            }
+        ],
+        "linkItemsData": [],
+        "address": [],
+        "services": [],
+        "hide_section": "false"
+    },
+    "restaurants_category": {
+        "37": [
+            {
+                "title": "Aaheli",
+                "sub_title": "Peerless Hotel - Kolkata",
+                "description": [
+                    {
+                        "value": "<p>12 Jawaharlal Nehru Road Esplanade Dharmatala, Kolkata - 700013<\/p><p>Timing: 12.30 - 3.30 pm (Afternoon)<br>7.30 - 11.00 pm (Evening)<\/p><p>Email: <a href=\"mailto:fnbmgr@peerlesshotels.com\">fnbmgr@peerlesshotels.com<\/a><\/p><p>Mobile: +91&nbsp;70666&nbsp;43322&nbsp;&nbsp;<br>&nbsp;<\/p>",
+                        "format": "full_html"
+                    }
+                ],
+                "category": [
+                    {
+                        "category_name": "Aaheli Flagship Restaurant",
+                        "category_id": "37",
+                        "order": 1
+                    }
+                ],
+                "button_arrow_image": [
+                    {
+                        "target_id": "69",
+                        "alt": "Peerless Hotel - Kolkata",
+                        "title": "",
+                        "width": "14",
+                        "height": "12",
+                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-06\/button-arrow_6.svg"
+                    }
+                ],
+                "featured_image": [
+                    {
+                        "target_id": "758",
+                        "alt": "Peerless Hotel - Kolkata",
+                        "title": "",
+                        "width": "494",
+                        "height": "300",
+                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2024-03\/peerless-restauran_Aaheli.jpg"
+                    }
+                ],
+                "post_icon": [
+                    {
+                        "target_id": "72",
+                        "alt": "Peerless Hotel - Kolkata",
+                        "title": "",
+                        "width": "44",
+                        "height": "44",
+                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-06\/navigator_4.svg"
+                    }
+                ],
+                "post_url": [
+                    {
+                        "url": "https:\/\/peerlesshotels.com\/peerless-kolkata.php",
+                        "link_text": "Know More"
+                    }
+                ],
+                "location_map": [
+                    {
+                        "address": "Esplanade",
+                        "latitude": "22.56260652907014",
+                        "longitude": "88.35131294478104"
+                    }
+                ]
+            },
+            {
+                "title": "Aaheli",
+                "sub_title": "Axis Mall - Kolkata",
+                "description": [
+                    {
+                        "value": "<p>4th Floor, Block CS, 106, Major Arterial Road, New Town, Kolkata - 700156<\/p><p>Timing: 12.30 - 10.30 pm&nbsp;<br>&nbsp;<\/p><p>Email: <a href=\"mailto:fnbmgr@peerlesshotels.com\">fnbmgr@peerlesshotels.com<\/a><\/p><p>Mobile: +91&nbsp;70666&nbsp;43322<br>&nbsp;<\/p>",
+                        "format": "full_html"
+                    }
+                ],
+                "category": [
+                    {
+                        "category_name": "Aaheli Flagship Restaurant",
+                        "category_id": "37",
+                        "order": 1
+                    }
+                ],
+                "button_arrow_image": [
+                    {
+                        "target_id": "74",
+                        "alt": "Axis Mall - Kolkata",
+                        "title": "",
+                        "width": "14",
+                        "height": "12",
+                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-06\/button-arrow_7.svg"
+                    }
+                ],
+                "featured_image": [
+                    {
+                        "target_id": "356",
+                        "alt": "Axis Mall - Kolkata",
+                        "title": "",
+                        "width": "494",
+                        "height": "300",
+                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/AAHELI-%20AXIS-banner_0.jpg"
+                    }
+                ],
+                "post_icon": [
+                    {
+                        "target_id": "77",
+                        "alt": "Axis Mall - Kolkata",
+                        "title": "",
+                        "width": "44",
+                        "height": "44",
+                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-06\/navigator_6.svg"
+                    }
+                ],
+                "post_url": [
+                    {
+                        "url": "https:\/\/peerlesshotels.com\/axis-mall.php",
+                        "link_text": "Know More"
+                    }
+                ],
+                "location_map": [
+                    {
+                        "address": "Kolkata",
+                        "latitude": "22.579652780850633",
+                        "longitude": "88.45984232944396"
+                    }
+                ]
+            },
+            {
+                "title": "Aaheli",
+                "sub_title": "Sarat Bose Road - Kolkata",
+                "description": [
+                    {
+                        "value": "<p>190 A, Sarat Bose Road,&nbsp;&nbsp;<br>Kolkata- 700029<\/p><p>Timing: 12.30 - 10.30 pm<br>&nbsp;<\/p><p>Email: <a href=\"mailto:aahelisbr@peerlesshotels.com\">aahelisbr@peerlesshotels.com<\/a><\/p><p>Mobile: +91&nbsp;70666&nbsp;43322<\/p>",
+                        "format": "basic_html"
+                    }
+                ],
+                "category": [
+                    {
+                        "category_name": "Aaheli Flagship Restaurant",
+                        "category_id": "37",
+                        "order": 1
+                    }
+                ],
+                "button_arrow_image": [
+                    {
+                        "target_id": "318",
+                        "alt": "Sarat Bose Road - Kolkata",
+                        "title": "",
+                        "width": "14",
+                        "height": "12",
+                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/button-arrow_4.svg"
+                    }
+                ],
+                "featured_image": [
+                    {
+                        "target_id": "355",
+                        "alt": "Sarat Bose Road - Kolkata",
+                        "title": "",
+                        "width": "494",
+                        "height": "300",
+                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/AAHELI-SBR-banner_0.jpg"
+                    }
+                ],
+                "post_icon": [
+                    {
+                        "target_id": "320",
+                        "alt": "Sarat Bose Road - Kolkata",
+                        "title": "",
+                        "width": "44",
+                        "height": "44",
+                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/navigator_0.svg"
+                    }
+                ],
+                "post_url": [
+                    {
+                        "url": "https:\/\/peerlesshotels.com\/sarat-bose-road.php",
+                        "link_text": "Know More"
+                    }
+                ],
+                "location_map": [
+                    {
+                        "address": "Kolkata",
+                        "latitude": "22.514703471915126",
+                        "longitude": "88.3530676482736"
+                    }
+                ]
+            }
+        ],
+        "23": [
+            {
+                "title": "Pavilion",
+                "sub_title": "Peerless Hotel - Hyderabad",
+                "description": [
+                    {
+                        "value": "<p>Specialises in a variety of cuisines including Hyderabadi, North Indian, and Chinese.<\/p><ul class=\"p-0 mb-4 mb-md-5\"><li><font>Timing: Monday to Sunday<\/font><ul><li>Breakfast:&nbsp;&nbsp;<br>7 am - 10.30 am&nbsp;<\/li><li>Lunch:&nbsp;&nbsp;<br>12 pm - 3 pm&nbsp;<\/li><li>Dinner:&nbsp;&nbsp;<br>7 pm - 11.30 pm.<\/li><\/ul><\/li><\/ul>",
+                        "format": "full_html"
+                    }
+                ],
+                "category": [
+                    {
+                        "category_name": "Multicuisine Restaurants",
+                        "category_id": "23",
+                        "order": 2
+                    }
+                ],
+                "button_arrow_image": [
+                    {
+                        "target_id": "68",
+                        "alt": "Pavilion",
+                        "title": "",
+                        "width": "14",
+                        "height": "12",
+                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-06\/button-arrow_5.svg"
+                    }
+                ],
+                "featured_image": [
+                    {
+                        "target_id": "70",
+                        "alt": "Peerless Hotel - Hyderabad",
+                        "title": "",
+                        "width": "494",
+                        "height": "300",
+                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-06\/peerless-restaurant-tab-block-1.jpg"
+                    }
+                ],
+                "post_icon": [
+                    {
+                        "target_id": "73",
+                        "alt": "Peerless Hotel - Hyderabad",
+                        "title": "",
+                        "width": "44",
+                        "height": "44",
+                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-06\/navigator_5.svg"
+                    }
+                ],
+                "post_url": [
+                    {
+                        "url": "https:\/\/peerlesshotels.com\/peerless-inn-hyderabad-dining.php",
+                        "link_text": "Know More"
+                    }
+                ],
+                "location_map": [
+                    {
+                        "address": "Peerless Hotel - Hyderabad",
+                        "latitude": "17.43026625746026",
+                        "longitude": "78.37484544285826"
+                    }
+                ]
+            },
+            {
+                "title": "Corbyn\u2019s Delight",
+                "sub_title": "Peerless Resort - Port Blair",
+                "description": [
+                    {
+                        "value": "<p>Offers a diverse range of Asian, Italian, and Continental cuisines featuring a wide variety of fresh and flavorful seafood dishes.<\/p><ul class=\"p-0 mb-4 mb-md-5\"><li><font>Timing:<\/font>&nbsp;<ul><li>Breakfast:&nbsp;&nbsp;<br>7 am - 10 am.&nbsp;<\/li><li>Lunch:&nbsp;&nbsp;<br>12.30 pm - 3 pm.&nbsp;<\/li><li>Dinner:&nbsp;&nbsp;<br>7 pm - 11 pm.<\/li><\/ul><\/li><\/ul>",
+                        "format": "full_html"
+                    }
+                ],
+                "category": [
+                    {
+                        "category_name": "Multicuisine Restaurants",
+                        "category_id": "23",
+                        "order": 2
+                    }
+                ],
+                "button_arrow_image": [
+                    {
+                        "target_id": "75",
+                        "alt": "Corbyn\u2019s Delight",
+                        "title": "",
+                        "width": "14",
+                        "height": "12",
+                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-06\/button-arrow_8.svg"
+                    }
+                ],
+                "featured_image": [
+                    {
+                        "target_id": "764",
+                        "alt": "Corbyn\u2019s Delight",
+                        "title": "",
+                        "width": "495",
+                        "height": "300",
+                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2024-04\/CarbonsDelight.jpg"
+                    }
+                ],
+                "post_icon": [
+                    {
+                        "target_id": "81",
+                        "alt": "Corbyn\u2019s Delight",
+                        "title": "",
+                        "width": "44",
+                        "height": "44",
+                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-06\/navigator_7.svg"
+                    }
+                ],
+                "post_url": [
+                    {
+                        "url": "https:\/\/peerlesshotels.com\/peerless-inn-port_blair-dining.php",
+                        "link_text": "Know More"
+                    }
+                ],
+                "location_map": [
+                    {
+                        "address": "Peerless Resort - Port Blair",
+                        "latitude": "11.644182921139738",
+                        "longitude": "92.74609626848137"
+                    }
+                ]
+            },
+            {
+                "title": "The Roor",
+                "sub_title": "Peerless Hotel - Durgapur",
+                "description": [
+                    {
+                        "value": "<p>Offers a wide variety of dishes to choose from.<\/p><ul class=\"p-0 mb-4 mb-md-5\"><li><font>Timing: Monday to Sunday<\/font><ul><li>Breakfast -&nbsp;&nbsp;<br>7.00 am - 10.30 am&nbsp;<\/li><li>Lunch -&nbsp;&nbsp;<br>12.30 pm - 3.00 pm, &nbsp;<\/li><li>Dinner -&nbsp;&nbsp;<br>7.00 pm - 10.30 pm<\/li><\/ul><\/li><\/ul>",
+                        "format": "full_html"
+                    }
+                ],
+                "category": [
+                    {
+                        "category_name": "Multicuisine Restaurants",
+                        "category_id": "23",
+                        "order": 2
+                    }
+                ],
+                "button_arrow_image": [
+                    {
+                        "target_id": "83",
+                        "alt": "Roor",
+                        "title": "",
+                        "width": "14",
+                        "height": "12",
+                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-06\/button-arrow_10.svg"
+                    }
+                ],
+                "featured_image": [
+                    {
+                        "target_id": "84",
+                        "alt": "The Roor",
+                        "title": "",
+                        "width": "494",
+                        "height": "300",
+                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-06\/peerless-restaurant-tab-block-3_0.jpg"
+                    }
+                ],
+                "post_icon": [
+                    {
+                        "target_id": "85",
+                        "alt": "Roor",
+                        "title": "",
+                        "width": "44",
+                        "height": "44",
+                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-06\/navigator_9.svg"
+                    }
+                ],
+                "post_url": [
+                    {
+                        "url": "https:\/\/peerlesshotels.com\/peerless-inn-durgapur-dining.php",
+                        "link_text": "Know More"
+                    }
+                ],
+                "location_map": [
+                    {
+                        "address": "Roor, Peerless Hotel - Durgapur",
+                        "latitude": "23.540065988185034",
+                        "longitude": "87.29257269386534"
+                    }
+                ]
+            },
+            {
+                "title": "Oceanic",
+                "sub_title": "Peerless Hotel - Kolkata",
+                "description": [
+                    {
+                        "value": "<p>Offers Chinese, Italian, and Continental specialities. The Sunday brunch buffets are a speciality.<\/p><ul class=\"p-0 mb-4 mb-md-5\"><li><font>Timing: Monday to Sunday<\/font><ul><li>Breakfast:&nbsp;&nbsp;<br>7 am - 10.30 am&nbsp;<\/li><li>Lunch:&nbsp;&nbsp;<br>12 pm - 3 pm<\/li><li>Dinner:&nbsp;&nbsp;<br>7 pm - 11.30 pm<\/li><\/ul><\/li><\/ul>",
+                        "format": "full_html"
+                    }
+                ],
+                "category": [
+                    {
+                        "category_name": "Multicuisine Restaurants",
+                        "category_id": "23",
+                        "order": 2
+                    }
+                ],
+                "button_arrow_image": [
+                    {
+                        "target_id": "170",
+                        "alt": "Oceanic ",
+                        "title": "",
+                        "width": "14",
+                        "height": "12",
+                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/button-arrow_0.svg"
+                    }
+                ],
+                "featured_image": [
+                    {
+                        "target_id": "765",
+                        "alt": "Oceanic",
+                        "title": "",
+                        "width": "494",
+                        "height": "300",
+                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2024-04\/Oceanic.jpg"
+                    }
+                ],
+                "post_icon": [
+                    {
+                        "target_id": "172",
+                        "alt": "Oceanic",
+                        "title": "",
+                        "width": "44",
+                        "height": "44",
+                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/navigator.svg"
+                    }
+                ],
+                "post_url": [
+                    {
+                        "url": "https:\/\/peerlesshotels.com\/peerless-inn-kolkata-dining.php",
+                        "link_text": "Know More"
+                    }
+                ],
+                "location_map": [
+                    {
+                        "address": "Peerless Hotel - Kolkata",
+                        "latitude": "22.562442917393398",
+                        "longitude": "88.35150168220878 "
+                    }
+                ]
+            },
+            {
+                "title": "Madol",
+                "sub_title": "Peerless Resort - Mukutmanipur",
+                "description": [
+                    {
+                        "value": "<p>Offers the finest array of multi-ethnic culinary delights, along with quintessential Bengali meals, sourced locally.<\/p><ul class=\"p-0 mb-4 mb-md-5\"><li><font>Timing: Monday to Sunday<\/font><ul><li>Buffet Breakfast:&nbsp;<br>7 am - 10.30 am<\/li><li>Buffet Lunch (Only Sunday):&nbsp;<br>12 pm - 3 pm<\/li><li>Buffet Dinner:&nbsp;&nbsp;<br>7 pm - 11.30 pm<\/li><\/ul><\/li><\/ul>",
+                        "format": "full_html"
+                    }
+                ],
+                "category": [
+                    {
+                        "category_name": "Multicuisine Restaurants",
+                        "category_id": "23",
+                        "order": 2
+                    }
+                ],
+                "button_arrow_image": [
+                    {
+                        "target_id": "192",
+                        "alt": "Button Arrow",
+                        "title": "",
+                        "width": "14",
+                        "height": "12",
+                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/button-arrow_3.svg"
+                    }
+                ],
+                "featured_image": [
+                    {
+                        "target_id": "358",
+                        "alt": "Madol",
+                        "title": "",
+                        "width": "494",
+                        "height": "300",
+                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/madol_0.jpg"
+                    }
+                ],
+                "post_icon": [
+                    {
+                        "target_id": "383",
+                        "alt": "Madol",
+                        "title": "",
+                        "width": "44",
+                        "height": "44",
+                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-08\/navigator_0.svg"
+                    }
+                ],
+                "post_url": [
+                    {
+                        "url": "https:\/\/peerlesshotels.com\/peerless-inn-mukutmanipur-dining.php",
+                        "link_text": "Know More"
+                    }
+                ],
+                "location_map": [
+                    {
+                        "address": "Peerless Resort - Mukutmanipur",
+                        "latitude": "22.975432820353817",
+                        "longitude": "86.78245975214816"
+                    }
+                ]
+            }
+        ],
+        "24": [
+            {
+                "title": "Sea Sips",
+                "sub_title": "Peerless Resort - Port Blair ",
+                "description": [
+                    {
+                        "value": "<p>It offers premium international spirits and innovative cocktails crafted with fresh ingredients. Additionally, a range of light bites and appetisers are available to complement the drinks, enhancing the lively atmosphere. It serves as the perfect spot to unwind after a busy day.<\/p>",
+                        "format": "full_html"
+                    }
+                ],
+                "category": [
+                    {
+                        "category_name": "Lounges and Bars",
+                        "category_id": "24",
+                        "order": 3
+                    }
+                ],
+                "button_arrow_image": [
+                    {
+                        "target_id": "69",
+                        "alt": "Peerless Resort - Port Blair ",
+                        "title": "",
+                        "width": "14",
+                        "height": "12",
+                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-06\/button-arrow_6.svg"
+                    }
+                ],
+                "featured_image": [
+                    {
+                        "target_id": "359",
+                        "alt": "Sea Sips",
+                        "title": "",
+                        "width": "494",
+                        "height": "300",
+                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/sea-sips_0.jpg"
+                    }
+                ],
+                "post_icon": [
+                    {
+                        "target_id": "72",
+                        "alt": "Peerless Resort - Port Blair ",
+                        "title": "",
+                        "width": "44",
+                        "height": "44",
+                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-06\/navigator_4.svg"
+                    }
+                ],
+                "post_url": [
+                    {
+                        "url": "https:\/\/peerlesshotels.com\/peerless-inn-port_blair-dining.php",
+                        "link_text": "Know More"
+                    }
+                ],
+                "location_map": [
+                    {
+                        "address": "Peerless Resort - Port Blair ",
+                        "latitude": "11.644182988115734",
+                        "longitude": "92.7460957268347"
+                    }
+                ]
+            },
+            {
+                "title": "Bass and Barrel",
+                "sub_title": "Peerless Hotel - Kolkata",
+                "description": [
+                    {
+                        "value": "<p>Offers an English pub ambience with global progressive cuisine, a curated selection of over 30 single malts, 50 cocktails, and fresh draught beer. Additionally, it hosts live music and DJ nights, making it one of the city's most vibrant lounges.<\/p><p>&nbsp;<\/p>",
+                        "format": "full_html"
+                    }
+                ],
+                "category": [
+                    {
+                        "category_name": "Lounges and Bars",
+                        "category_id": "24",
+                        "order": 3
+                    }
+                ],
+                "button_arrow_image": [
+                    {
+                        "target_id": "69",
+                        "alt": "Peerless Hotel - Kolkata",
+                        "title": "",
+                        "width": "14",
+                        "height": "12",
+                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-06\/button-arrow_6.svg"
+                    }
+                ],
+                "featured_image": [
+                    {
+                        "target_id": "754",
+                        "alt": "Peerless Hotel - Kolkata",
+                        "title": "",
+                        "width": "494",
+                        "height": "300",
+                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2024-03\/peerless-restaurant-tab-block-3.jpg"
+                    }
+                ],
+                "post_icon": [
+                    {
+                        "target_id": "72",
+                        "alt": "Peerless Hotel - Kolkata",
+                        "title": "",
+                        "width": "44",
+                        "height": "44",
+                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-06\/navigator_4.svg"
+                    }
+                ],
+                "post_url": [
+                    {
+                        "url": "https:\/\/peerlesshotels.com\/peerless-inn-kolkata-dining.php",
+                        "link_text": "Know More"
+                    }
+                ],
+                "location_map": [
+                    {
+                        "address": "Peerless Hotel - Kolkata",
+                        "latitude": "22.562538771659046",
+                        "longitude": "88.35139857567818"
+                    }
+                ]
+            },
+            {
+                "title": "Tea Lounge",
+                "sub_title": "Peerless Hotel - Kolkata",
+                "description": [
+                    {
+                        "value": "<p>It offers a diverse selection of teas and coffees, crafted to perfection. Guests can enjoy a relaxing atmosphere while unwinding and savouring their favourite beverages, taking a break from their busy schedules.&nbsp;<\/p>",
+                        "format": "full_html"
+                    }
+                ],
+                "category": [
+                    {
+                        "category_name": "Lounges and Bars",
+                        "category_id": "24",
+                        "order": 3
+                    }
+                ],
+                "button_arrow_image": [
+                    {
+                        "target_id": "69",
+                        "alt": "Peerless Hotel - Kolkata",
+                        "title": "",
+                        "width": "14",
+                        "height": "12",
+                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-06\/button-arrow_6.svg"
+                    }
+                ],
+                "featured_image": [
+                    {
+                        "target_id": "360",
+                        "alt": "Tea Lounge",
+                        "title": "",
+                        "width": "494",
+                        "height": "300",
+                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/tea-lounge_0.jpg"
+                    }
+                ],
+                "post_icon": [
+                    {
+                        "target_id": "72",
+                        "alt": "Peerless Hotel - Kolkata",
+                        "title": "",
+                        "width": "44",
+                        "height": "44",
+                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-06\/navigator_4.svg"
+                    }
+                ],
+                "post_url": [
+                    {
+                        "url": "https:\/\/peerlesshotels.com\/peerless-inn-kolkata-dining.php",
+                        "link_text": "Know More"
+                    }
+                ],
+                "location_map": [
+                    {
+                        "address": "Peerless Hotel - Kolkata",
+                        "latitude": "22.562538659774027",
+                        "longitude": "88.35139803985396"
+                    }
+                ]
+            }
+        ]
+    }
+}

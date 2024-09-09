@@ -1,0 +1,9 @@
+Hospital will have two centers
+
+Consolidated view for Hospital
+
+Two centers with 
+
+
+Input fileds will remain the same
+Center level access for data input

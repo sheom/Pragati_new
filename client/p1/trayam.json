@@ -1,0 +1,593 @@
+{
+    "id": "133",
+    "page_name": "trayam",
+    "title": "Trayam",
+    "blog_title": "What's <span>New?<\/span>",
+    "visit_website": {
+        "url": "https:\/\/bengalpeerless.com\/",
+        "link_text": ""
+    },
+    
+    "metatags": {
+        "abstract": "Peerless One",
+        "description": "Explore Peerless Group's commitment to quality housing solutions. From modern residences to sustainable communities, we shape environments where families thrive. Discover how we're crafting spaces that truly feel like home.",
+        "keywords": "Housing, Bengal Peerless",
+        "og_description": "Explore Peerless Group's commitment to quality housing solutions. From modern residences to sustainable communities, we shape environments where families thrive. Discover how we're crafting spaces that truly feel like home.",
+        "og_determiner": "Peerless One",
+        "og_image": [
+            "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-09\/housing.jpg"
+        ],
+        "og_image_alt": "Housing",
+        "og_image_height": "630",
+        "og_image_secure_url": [
+            "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-09\/housing.jpg"
+        ],
+        "og_image_type": "jpeg",
+        "og_image_url": [
+            "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-09\/housing.jpg"
+        ],
+        "og_image_width": "1200",
+        "og_site_name": "Peerless One",
+        "og_title": "Peerless Group Housing: Building Dreams, Creating Communities",
+        "og_url": "https:\/\/cms.peerlessone.in\/housing",
+        "title": "Peerless Group Housing: Building Dreams, Creating Communities",
+        "canonical_url": "https:\/\/cms.peerlessone.in\/housing",
+        "robots": "index, follow"
+    },
+    "banner": {
+        "banner_title": [
+            {
+                "value": "Trayam"
+            }
+        ],
+        "sub_title": [
+            {
+                "value": "Together we make a Family"
+            }
+        ],
+        "banner_featured_image": [
+            {
+                "target_id": "253",
+                "alt": "Housing Banner",
+                "title": "",
+                "width": "1820",
+                "height": "770",
+                "image_url_old": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/tryam_banner.jpg",
+                "image_url": "/imgs/trayam/banner_trayam.jpg"
+            }
+        ],
+        "banner_icon": [
+            {
+                "target_id": "119",
+                "alt": "trayam icon",
+                "title": "",
+                "width": "39",
+                "height": "38",
+                "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/trayam.svg"
+            }
+        ],
+        "banner_logo": [
+            {
+                "target_id": "118",
+                "alt": "trayam logo",
+                "title": "",
+                "width": "293",
+                "height": "71",
+                "image_url":"",
+                "image_url_none": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/peerless-housing-logo.jpg"
+            }
+        ]
+    },
+    "our_story": {
+        "our_story_title": [
+            {
+                "value": "A landmark"
+            }
+        ],
+        "sub_title": [
+            {
+                "value": " project"
+            }
+        ],
+        "top_heading": [],
+        "body": [
+            {
+                "value": "<p> Trayam by PGFI will be a unique mixed-use development project in Kolkata, the first of its kind in the city. The project will be a mix of retail, commercial as well as residential complexes which will provide almost everything in a single roof. The design theme of Trayam will be “Ekam eva Advwitiyam”, unique in terms of space planning, functionality, and aesthetics, thus creating a reputation of “one & only one”.<\/p> <p>This will be ‘Indian Green building’ certified (Gold-rated) eco-friendly project in Rajarhat, New Town, conceived on a Sale-cum-Lease model.<\/p> <p>Trayam in Sanskrit means “three”. This signifies the mix of three elements: Retail, Commercial and Residential in a single project thereby providing a true “Live-Work-Play” experience. <\/p> <p><\/p>",
+                "summary": "",
+                "format": "full_html"
+            }
+        ],
+        "our_story_image": [
+            {
+                "target_id": "334",
+                "alt": "Housing Our story",
+                "title": "",
+                "width": "557",
+                "height": "661",
+                "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-08\/trayam.png"
+            }
+        ],
+        "banner_logo": [
+            {
+                "image_url": null
+            }
+        ],
+        "linkItemsData": [],
+        "address": [],
+        "services": [],
+        "hide_section": "false"
+    },
+
+    "skill_academy": null,
+    "headline_data": null,
+    "housing_data": null,
+    "housing_project": null,
+    "our_story_bottom": null,
+
+    "trayam_data": {
+        "trayam_vision": [
+            {
+                "title": "Meaning of Trayam ",
+                "main_title": "<span>Meaning of<\/span> Trayam ",
+                "image_data": [
+                    {
+                        "title": "",
+                        "sub_title": [
+                            {
+                                "value": ""
+                            }
+                        ],
+                        "description": [
+                            {
+                                "value": "<p>One-of-a-kind “Retail-Commercial-Residential” project, offering a true “Live-Work-Play” experience. <\/p>",
+                                "format": "full_html"
+                            }
+                        ],
+                        "images": [
+                            {
+                                "image_caption": "",
+                                "image": [
+                                    {
+                                        "target_id": "550",
+                                        "alt": "vision1",
+                                        "title": "",
+                                        "width": "320",
+                                        "height": "240",
+                                        "image_url": "/vision1.jpg"
+                                    }
+                                ]
+                            },
+                            {
+                                "image_caption": "",
+                                "image": [
+                                    {
+                                        "target_id": "574",
+                                        "alt": "vision",
+                                        "title": "",
+                                        "width": "320",
+                                        "height": "240",
+                                        "image_url": "/vision2.jpg"
+                                    }
+                                ]
+                            },
+                            {
+                                "image_caption": "",
+                                "image": [
+                                    {
+                                        "target_id": "552",
+                                        "alt": "Vision 3-3",
+                                        "title": "",
+                                        "width": "320",
+                                        "height": "240",
+                                        "image_url": "/vision3.jpg"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "key_persons": [
+            {
+                "title": "About Trayam",
+                "main_title": "<span>About<\/span> Trayam",
+                "image_data": [
+                    {
+                        "title": "Architecture",
+                        "sub_title": [
+                            {
+                                "value": "Concept Architect"
+                            }
+                        ],
+                        "description": [
+                            {
+                                "value": "<p>The Concept drawing of the project has been done by HB Design Co Ltd. M/s HB Design was founded by Hans Brouwer in Hong Kong in 1995 following a distinguished career working for the internationally renowned firm of Sir Norman Foster and Partners. It has offices in Singapore, Bangkok and Phuket, and boasts a diverse and award-winning portfolio that spans high-rise residential, commercial and mixed-use projects, with many projects exceeding 2 million square feet built-up area.  <\/p>",
+                                "format": "full_html"
+                            }
+                        ],
+                        "images": [
+                            {
+                                "image_caption": "Unique concept architecture of the project",
+                                "image": [
+                                    {
+                                        "target_id": "550",
+                                        "alt": "Unique concept architecture of the project",
+                                        "title": "",
+                                        "width": "600",
+                                        "height": "360",
+                                        "image_url": "/concept_architect.png"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Builder",
+                        "sub_title": [
+                            {
+                                "value": "Builder"
+                            }
+                        ],
+                        "description": [
+                            {
+                                "value": "<p>Larsen & Toubro, the project's D&B contractor, is an Indian multinational engaged in EPC Projects, Hi-Tech Manufacturing, and Services. Operating in over 50 countries worldwide, the company is renowned for its remarkable technical expertise, top-class quality, and customer-focused approach. Having sustained leadership in its key business areas for over eight decades, Larsen & Toubro brings unparalleled experience and reliability to the project.<\/p>",
+                                "format": "full_html"
+                            }
+                        ],
+                        "images": [
+                            {
+                                "image_caption": "Contractor of repute",
+                                "image": [
+                                    {
+                                        "target_id": "554",
+                                        "alt": "Contractor of repute",
+                                        "title": "",
+                                        "width": "640",
+                                        "height": "480",
+                                        "image_url": "imgs/trayam/builder/dnb_1.jpg"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Location",
+                        "link": "https://maps.app.goo.gl/xpN3jFeWpZTdRW7L8",
+                        "sub_title": [
+                            {
+                                "value": "Location"
+                            }
+                        ],
+                        "description": [
+                            {
+                                "value": "<p>The project has been conceived on an owned land area of 2.67 acres (162 Kottahs) in Action Area 1, New Town, Kolkata (Premises No. 05-0097, Plot No.-BG-6). It is located approximately 1 km from New Town Bus terminal and about 12 km from the Airport. The upcoming Metro railway station is only 350 metres away from the site.<\/p> <p><\/p>",
+                                "format": "full_html"
+                            }
+                        ],
+                        "images": [
+                            {
+                                "image_caption": "Click to view in Google map",
+                                "image": [
+                                    {
+                                        "target_id": "554",
+                                        "alt": "Click to view in Google map",
+                                        "title": "",
+                                        "width": "640",
+                                        "height": "480",
+                                        "image_url": "imgs/trayam/loc/loc_01.jpg"
+                                    }
+                                ]
+                            },
+                            {
+                                "image_caption": "Click to view in Google map",
+                                "image": [
+                                    {
+                                        "target_id": "554",
+                                        "alt": "Click to view in Google map",
+                                        "title": "",
+                                        "width": "640",
+                                        "height": "480",
+                                        "image_url": "imgs/trayam/loc/loc_02.jpg"
+                                    }
+                                ]
+                            },
+                            {
+                                "image_caption": "Click to view in Google map",
+                                "image": [
+                                    {
+                                        "target_id": "554",
+                                        "alt": "Click to view in Google map",
+                                        "title": "",
+                                        "width": "640",
+                                        "height": "480",
+                                        "image_url": "imgs/trayam/loc/loc_03.jpg"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Specification",
+                        "sub_title": [
+                            {
+                                "value": "Specification"
+                            }
+                        ],
+                        "description": [
+                            {
+                                "value": "<p>The project spans an approximate super built-up area of 5.56 lakh sq. ft., comprising around 4.3 lakh sq.ft. of non-residential area and 1.26 lakh sq. ft. of star-category Residential Complex.<\/p> <p>It features three towers, each with 2B+G+14 levels. One tower will house exclusive commercial space, while the other two towers will consist of Residential, Commercial, and Office spaces. <\/p> <p>A total of 71 luxury apartments, including a mix of 3BHK, 4BHK, and Duplex & Penthouses ranging from 1250 sqft to 3500 sqft, will be constructed in line with premium category specifications. <\/p>",
+                                "format": "full_html"
+                            }
+                        ],
+                        "images": [
+                            {
+                                "image_caption": "An illustrative model of the project",
+                                "image": [
+                                    {
+                                        "target_id": "554",
+                                        "alt": "An illustrative model of the project",
+                                        "title": "",
+                                        "width": "670",
+                                        "height": "417",
+                                        "image_url": "/towers.png"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Landscaping",
+                        "sub_title": [
+                            {
+                                "value": "Landscaping"
+                            }
+                        ],
+                        "description": [
+                            {
+                                "value": "<p>The landscape for this project is designed by the internationally renowned firm ‘One Landscape Design’ based in Hong Kong. Extensive soft and hard landscaping will be installed on the site keeping in line with its status. There will be an endeavour to build it in such a manner that it makes minimal demands on natural resources and is environmentally friendly.<\/p>",
+                                "format": "full_html"
+                            }
+                        ],
+                        "images": [
+                            {
+                                "image_caption": "Illustrative landscape plan",
+                                "image": [
+                                    {
+                                        "target_id": "554",
+                                        "alt": "Illustrative landscape plan",
+                                        "title": "",
+                                        "width": "697",
+                                        "height": "427",
+                                        "image_url": "/landscaping.png"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Initiation",
+                        "sub_title": [
+                            {
+                                "value": "Initiation"
+                            }
+                        ],
+                        "description": [
+                            {
+                                "value": "<p>The bhoomi puja of the project was done on 1st of March’24 in the presence of senior dignitaries.<\/p>",
+                                "format": "full_html"
+                            }
+                        ],
+                        "images": [
+                            {
+                                "image_caption": "Bhoomi Puja",
+                                "image": [
+                                    {
+                                        "target_id": "554",
+                                        "alt": "Bhoomi Puja",
+                                        "title": "",
+                                        "width": "720",
+                                        "height": "480",
+                                        "image_url": "/imgs/trayam/initiation/bhumi_pujan_01.jpg"
+                                    }
+                                ]
+                            },
+                            {
+                                "image_caption": "Bhoomi Puja",
+                                "image": [
+                                    {
+                                        "target_id": "554",
+                                        "alt": "Bhoomi Puja",
+                                        "title": "",
+                                        "width": "720",
+                                        "height": "480",
+                                        "image_url": "/imgs/trayam/initiation/bhumi_pujan_02.jpg"
+                                    }
+                                ]
+                            },
+                            {
+                                "image_caption": "Bhoomi Puja",
+                                "image": [
+                                    {
+                                        "target_id": "554",
+                                        "alt": "Bhoomi Puja",
+                                        "title": "",
+                                        "width": "720",
+                                        "height": "480",
+                                        "image_url": "/imgs/trayam/initiation/bhumi_pujan_03.jpg"
+                                    }
+                                ]
+                            },
+                            {
+                                "image_caption": "Bhoomi Puja",
+                                "image": [
+                                    {
+                                        "target_id": "554",
+                                        "alt": "Bhoomi Puja",
+                                        "title": "",
+                                        "width": "720",
+                                        "height": "480",
+                                        "image_url": "/imgs/trayam/initiation/bhumi_pujan_04.jpg"
+                                    }
+                                ]
+                            },
+                            {
+                                "image_caption": "Bhoomi Puja",
+                                "image": [
+                                    {
+                                        "target_id": "554",
+                                        "alt": "Bhoomi Puja",
+                                        "title": "",
+                                        "width": "720",
+                                        "height": "480",
+                                        "image_url": "/imgs/trayam/initiation/bhumi_pujan_05.jpg"
+                                    }
+                                ]
+                            },
+                            {
+                                "image_caption": "Bhoomi Puja",
+                                "image": [
+                                    {
+                                        "target_id": "554",
+                                        "alt": "Bhoomi Puja",
+                                        "title": "",
+                                        "width": "720",
+                                        "height": "480",
+                                        "image_url": "/imgs/trayam/initiation/bhumi_pujan_06.jpg"
+                                    }
+                                ]
+                            },
+                            {
+                                "image_caption": "Bhoomi Puja",
+                                "image": [
+                                    {
+                                        "target_id": "554",
+                                        "alt": "Bhoomi Puja",
+                                        "title": "",
+                                        "width": "720",
+                                        "height": "480",
+                                        "image_url": "/imgs/trayam/initiation/bhumi_pujan_07.jpg"
+                                    }
+                                ]
+                            },
+                            {
+                                "image_caption": "Bhoomi Puja",
+                                "image": [
+                                    {
+                                        "target_id": "554",
+                                        "alt": "Bhoomi Puja",
+                                        "title": "",
+                                        "width": "720",
+                                        "height": "480",
+                                        "image_url": "/imgs/trayam/initiation/bhumi_pujan_08.jpg"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+
+                ]
+            }
+        ],
+        "trayam_photo_gallery1": [
+            {
+                "title": "Trayam Photo gallery",
+                "section_title": "Photo Gallery",
+                "description": [],
+                "photo_gallery": [
+                    {
+                        "photo_caption": "no",
+                        "photo_gallery_image": [
+                            {
+                                "target_id": "546",
+                                "alt": "Photo Gallery",
+                                "title": "",
+                                "width": "1550",
+                                "height": "800",
+                                "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-08\/Gallery%20pic1%20-%20Practise%20session.jpg"
+                            }
+                        ]
+                    },
+                    {
+                        "photo_caption": "No caption",
+                        "photo_gallery_image": [
+                            {
+                                "target_id": "547",
+                                "alt": "Photo Gallery",
+                                "title": "",
+                                "width": "1550",
+                                "height": "801",
+                                "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-08\/Gallery%20pic%202%20-%20Practise%20Session.jpg"
+                            }
+                        ]
+                    },
+                    {
+                        "photo_caption": "No caption",
+                        "photo_gallery_image": [
+                            {
+                                "target_id": "548",
+                                "alt": "Photo Gallery",
+                                "title": "",
+                                "width": "1550",
+                                "height": "800",
+                                "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-08\/Gallery%20Pic3%20-%20practise%20session.jpg"
+                            }
+                        ]
+                    },
+                    {
+                        "photo_caption": "No caption",
+                        "photo_gallery_image": [
+                            {
+                                "target_id": "549",
+                                "alt": "Photo Gallery",
+                                "title": "",
+                                "width": "1550",
+                                "height": "800",
+                                "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-08\/Gallery%20pic%204%20practise%20warm%20up%20sessions.jpg"
+                            }
+                        ]
+                    },
+                    {
+                        "photo_caption": "No caption",
+                        "photo_gallery_image": [
+                            {
+                                "target_id": "636",
+                                "alt": "Photo Gallery",
+                                "title": "",
+                                "width": "800",
+                                "height": "445",
+                                "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-08\/3656b1e3-e685-4678-8d55-f7cf54258b18.jpeg"
+                            }
+                        ]
+                    },
+                    {
+                        "photo_caption": "No caption",
+                        "photo_gallery_image": [
+                            {
+                                "target_id": "637",
+                                "alt": "Photo Gallery",
+                                "title": "",
+                                "width": "730",
+                                "height": "462",
+                                "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-08\/8595b8f2-bbe7-4c21-aa54-05bd23f48210.jpeg"
+                            }
+                        ]
+                    },
+                    {
+                        "photo_caption": "No caption",
+                        "photo_gallery_image": [
+                            {
+                                "target_id": "638",
+                                "alt": "Photo Gallery",
+                                "title": "",
+                                "width": "1200",
+                                "height": "675",
+                                "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-08\/2fed4038-2ad3-4067-8399-98ef27b93ef8.jpeg"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

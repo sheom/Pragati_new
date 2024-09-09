@@ -1,0 +1,16 @@
+mongo --ssl --host pragati-mis.c5qvhcxqhffb.ap-south-1.docdb.amazonaws.com:27017 --sslCAFile rds-combined-ca-bundle.pem --username pragatiuser --password <insertYourPassword>
+
+mongodb://pragatiuser:pragati_peerless@pragati-mis.c5qvhcxqhffb.ap-south-1.docdb.amazonaws.com:27017/?ssl=true&ssl_ca_certs=rds-combined-ca-bundle.pem&retryWrites=false
+
+
+mongodb+srv://peerlessone:Z5dKvTTf7OGgZqH8@cluster0.1xokohl.mongodb.net/?retryWrites=true&w=majority
+
+peerlessone
+Z5dKvTTf7OGgZqH8
+
+Achievements for the month of
+April 2023
+
+
+inputIntRevenue
+inputPatientServed

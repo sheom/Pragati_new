@@ -1,0 +1,27 @@
+const budget = {
+  _id: { $oid: "648819724485cdea60d5633b" },
+  userId: "648319940c9cfcc4515a1007",
+  propertyName: "The Peerless Inn Kolkata",
+  propertyCode: "PIK",
+  propertyId: "648806c84601d15e2d1680c7",
+  budgetYear: "2024",
+  locked: true,
+  payload: {
+    0: {
+      inputRevenue0: { $numberInt: "123" },
+      inputPBT0: { $numberInt: "4" },
+      inputEBIDTA0: { $numberInt: "7" },
+      inputOccupancy0: { $numberInt: "22" },
+      inputARR0: { $numberInt: "25" },
+      inputOpCash0: { $numberInt: "10" },
+      inputCashGen0: { $numberInt: "13" },
+      inputCashInflow0: { $numberInt: "16" },
+      inputCashOutflow0: { $numberInt: "19" },
+      termsAndConditions: false,
+    },
+  },
+  creator: { $oid: "648319940c9cfcc4515a1007" },
+  createdAt: { $date: { $numberLong: "1686641010381" } },
+  updatedAt: { $date: { $numberLong: "1686648121113" } },
+  __v: { $numberInt: "0" },
+};

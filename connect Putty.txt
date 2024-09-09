@@ -1,0 +1,25 @@
+ec2-user@ec2-15-207-165-116.ap-south-1.compute.amazonaws.com
+
+
+ubuntu@ec2-3-111-121-204.ap-south-1.compute.amazonaws.com
+
+Your subdomain 
+http://pragati.peerless.co.in/ 
+has been successfully created. Please find the details below. 
+
+FTP Server Information
+
+FTP Server : 72.9.105.190
+User Name : pragati
+Password : P@gati#123
+
+User email details
+Display name: Pragati
+Username: pragati@Peerless.co.in
+Password: mis@1982
+
+
+Saral ESS:
+URL: https://220.225.86.52:82/
+ID: 21485
+Password: Disc0ver@123

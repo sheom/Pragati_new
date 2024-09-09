@@ -1,0 +1,369 @@
+{
+    "id": "25",
+    "page_name": "Hospital",
+    "title": "Hospital",
+    "blog_title": "What's <span>New?<\/span>",
+    "visit_website": {
+        "url": "https:\/\/www.peerlesshospital.com\/",
+        "link_text": ""
+    },
+    "metatags": {
+        "abstract": "Peerless One",
+        "description": "Peerless Hospital is one of the best hospitals in Kolkata having a team of experienced doctors providing exceptional healthcare services with 24*7 emergency services.",
+        "keywords": "Hospital, Treatment",
+        "og_description": "Peerless Hospital is one of the best hospitals in Kolkata having a team of experienced doctors providing exceptional healthcare services with 24*7 emergency services.",
+        "og_determiner": "Peerless One",
+        "og_image": [
+            "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-09\/hospital.jpg"
+        ],
+        "og_image_alt": "Hospital",
+        "og_image_height": "630",
+        "og_image_secure_url": [
+            "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-09\/hospital.jpg"
+        ],
+        "og_image_type": "jpeg",
+        "og_image_url": [
+            "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-09\/hospital.jpg"
+        ],
+        "og_image_width": "1200",
+        "og_site_name": "Peerless One",
+        "og_title": "Best Hospital in Kolkata | 24*7 Services | Peerless Hospital",
+        "og_url": "https:\/\/cms.peerlessone.in\/hospital",
+        "title": "Best Hospital in Kolkata | 24*7 Services | Peerless Hospital",
+        "canonical_url": "https:\/\/cms.peerlessone.in\/hospital",
+        "robots": "index, follow"
+    },
+    "banner": {
+        "banner_title": [
+            {
+                "value": "Hospital "
+            }
+        ],
+        "sub_title": [
+            {
+                "value": "Committed to Compassionate Care"
+            }
+        ],
+        "banner_featured_image": [
+            {
+                "target_id": "595",
+                "alt": "Committed to Compassionate Care",
+                "title": "",
+                "width": "1820",
+                "height": "770",
+                "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-08\/hospital_banner.jpg"
+            }
+        ],
+        "banner_icon": [
+            {
+                "target_id": "64",
+                "alt": "hospital icon ",
+                "title": "",
+                "width": "38",
+                "height": "38",
+                "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-06\/hospital_0.svg"
+            }
+        ],
+        "banner_logo": [
+            {
+                "target_id": "65",
+                "alt": "Hotel banner logo",
+                "title": "",
+                "width": "434",
+                "height": "83",
+                "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-06\/hospital_banner_logo.webp"
+            }
+        ]
+    },
+    "our_story": {
+        "our_story_title": [
+            {
+                "value": "Our"
+            }
+        ],
+        "sub_title": [
+            {
+                "value": " Story "
+            }
+        ],
+        "top_heading": [],
+        "body": [
+            {
+                "value": "<p>For nearly a hundred years, the Peerless name has been synonymous with Trust. Trust that has been won and retained by successive generations of Peerless people, who have made it their mission to give back to society more than what it draws from it for sustenance.<br>The 500-bed Multispeciality Peerless Hospital &amp; B. K. Roy Research Centre too is built around this core principle of Selfless, Single-minded, and Sustainable Service to serve patients with the help of the latest technology and a team of skilled medical professionals. A 250 additional bed facility will soon be added to cater to the rising number of patients coming from the neighbouring areas within and outside the country.&nbsp;<br>It has over the years established sway over 30 medical and surgical departments with round-the-clock availability of specialised doctors, with centres of excellence in Orthopaedics by carrying out complex surgical procedures, and Gastroenterology.<br>The best-in-class Emergency section is manned 24\/7 by senior doctors and is backed by a new fleet of ambulances and necessary life-saving infrastructural facilities.&nbsp;<br>Peerless Hospital also has the first modular and best-in-class OT complex in Eastern India.&nbsp;<br>The Central Sterile Supply Department (CSSD) is of global standards with the presence of several key equipment and the adoption of acknowledged best practices.&nbsp;<br>It also has a state-of-the-art blood bank supported by a 24-hour blood transfusion service.<br>Peerless Hospital is also the first to have established special clinics like Liver, IBD, and Pancreatic Clinics to further specialise and refine the response to specific disorders relating to these organs.&nbsp;<br>Over the years, Peerless Hospital has received numerous awards, the recent being of Best Multispeciality Hospital in Clinical Excellence by Economic Times Health Leaders 2023, ABP Ananda Health Swastha Samman award for excellence in ENT Head and Neck Surgery and Times Business Award 2023 as Best Multispeciality Hospital in Patient safety.<\/p>",
+                "summary": "",
+                "format": "full_html"
+            }
+        ],
+        "our_story_image": [
+            {
+                "target_id": "404",
+                "alt": "Hospital our story",
+                "title": "",
+                "width": "580",
+                "height": "661",
+                "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-08\/imgpsh_fullsize_anim.png"
+            }
+        ],
+        "banner_logo": [
+            {
+                "image_url": null
+            }
+        ],
+        "linkItemsData": [],
+        "address": [],
+        "services": [],
+        "hide_section": "false"
+    },
+    "hospital_category": {
+        "18": [
+            {
+                "title": "Book An Appointment",
+                "category": [
+                    {
+                        "category_name": "Outpatient Departments",
+                        "category_id": "18"
+                    }
+                ],
+                "button_arrow_image": [],
+                "featured_image": [
+                    {
+                        "target_id": "674",
+                        "alt": "Book An Appointment",
+                        "title": "",
+                        "width": "350",
+                        "height": "170",
+                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-08\/find_doctor.jpg"
+                    }
+                ],
+                "post_icon": [
+                    {
+                        "target_id": "766",
+                        "alt": "",
+                        "title": "",
+                        "width": "64",
+                        "height": "64",
+                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2024-04\/book-appointment.png"
+                    }
+                ],
+                "post_url": {
+                    "url": "https:\/\/www.peerlesshospital.com\/doctor.php",
+                    "link_text": "Book An Appointment"
+                },
+                "is_popup": "0"
+            },
+            {
+                "title": "Diagnostic Services",
+                "category": [
+                    {
+                        "category_name": "Outpatient Departments",
+                        "category_id": "18"
+                    }
+                ],
+                "button_arrow_image": [],
+                "featured_image": [
+                    {
+                        "target_id": "770",
+                        "alt": "Diagnostic Services",
+                        "title": "Diagnostic Services",
+                        "width": "350",
+                        "height": "170",
+                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2024-05\/diagnostic_services_pic.jpg"
+                    }
+                ],
+                "post_icon": [
+                    {
+                        "target_id": "771",
+                        "alt": "Diagnostic Services",
+                        "title": "",
+                        "width": "64",
+                        "height": "64",
+                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2024-05\/diagnostic_services.png"
+                    }
+                ],
+                "post_url": {
+                    "url": "https:\/\/www.peerlesshospital.com\/diagnostic-services.php",
+                    "link_text": "Diagnostic Services"
+                },
+                "is_popup": "0"
+            },
+            {
+                "title": "Book Teleconsultation",
+                "category": [
+                    {
+                        "category_name": "Outpatient Departments",
+                        "category_id": "18"
+                    }
+                ],
+                "button_arrow_image": [],
+                "featured_image": [
+                    {
+                        "target_id": "676",
+                        "alt": "Book Teleconsultation",
+                        "title": "",
+                        "width": "350",
+                        "height": "170",
+                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-08\/book_teleconsultation.jpg"
+                    }
+                ],
+                "post_icon": [
+                    {
+                        "target_id": "269",
+                        "alt": "Book Teleconsultation",
+                        "title": "",
+                        "width": "64",
+                        "height": "64",
+                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/treleconsultation-icon.png"
+                    }
+                ],
+                "post_url": {
+                    "url": "https:\/\/peerless.metahos.com\/patientlogin",
+                    "link_text": "Book Teleconsultation"
+                },
+                "is_popup": "0"
+            },
+            {
+                "title": "International Patients",
+                "category": [
+                    {
+                        "category_name": "Outpatient Departments",
+                        "category_id": "18"
+                    }
+                ],
+                "button_arrow_image": [],
+                "featured_image": [
+                    {
+                        "target_id": "679",
+                        "alt": "International Patients",
+                        "title": "",
+                        "width": "350",
+                        "height": "170",
+                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-08\/book_appointment.jpg"
+                    }
+                ],
+                "post_icon": [
+                    {
+                        "target_id": "767",
+                        "alt": "International Patients",
+                        "title": "",
+                        "width": "64",
+                        "height": "64",
+                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2024-04\/doctor-icon_0.png"
+                    }
+                ],
+                "post_url": {
+                    "url": "https:\/\/www.peerlesshospital.com\/international-patients.php",
+                    "link_text": "International Patients"
+                },
+                "is_popup": "0"
+            }
+        ],
+        "19": [
+            
+            {
+                "title": "Surgery Packages",
+                "category": [
+                    {
+                        "category_name": "Inpatient Departments",
+                        "category_id": "19"
+                    }
+                ],
+                "button_arrow_image": [],
+                "featured_image": [
+                    {
+                        "target_id": "672",
+                        "alt": "Surgery Packages",
+                        "title": "",
+                        "width": "350",
+                        "height": "170",
+                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-08\/surguy_package.jpg"
+                    }
+                ],
+                "post_icon": [
+                    {
+                        "target_id": "264",
+                        "alt": "Surgery Packages",
+                        "title": "",
+                        "width": "64",
+                        "height": "64",
+                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/surgery-icon.png"
+                    }
+                ],
+                "post_url": {
+                    "url": "https:\/\/www.peerlesshospital.com\/packages.php",
+                    "link_text": "Surgery Packages"
+                },
+                "is_popup": "0"
+            },
+            {
+                "title": "Patient Guide",
+                "category": [
+                    {
+                        "category_name": "Inpatient Departments",
+                        "category_id": "19"
+                    }
+                ],
+                "button_arrow_image": [],
+                "featured_image": [
+                    {
+                        "target_id": "678",
+                        "alt": "Patient Guide",
+                        "title": "",
+                        "width": "350",
+                        "height": "170",
+                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-08\/patient_condition.jpg"
+                    }
+                ],
+                "post_icon": [
+                    {
+                        "target_id": "263",
+                        "alt": "Patient Guide",
+                        "title": "",
+                        "width": "64",
+                        "height": "64",
+                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/patient-icon.png"
+                    }
+                ],
+                "post_url": {
+                    "url": "https:\/\/www.peerlesshospital.com\/patient-guide.php",
+                    "link_text": "Patient Guide"
+                },
+                "is_popup": "0"
+            },
+            {
+                "title": "Emergencies",
+                "category": [
+                    {
+                        "category_name": "Inpatient Departments",
+                        "category_id": "19"
+                    }
+                ],
+                "button_arrow_image": [],
+                "featured_image": [
+                    {
+                        "target_id": "677",
+                        "alt": "Emergencies",
+                        "title": "",
+                        "width": "350",
+                        "height": "170",
+                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-08\/emergency.jpg"
+                    }
+                ],
+                "post_icon": [
+                    {
+                        "target_id": "262",
+                        "alt": "emergencies",
+                        "title": "",
+                        "width": "64",
+                        "height": "64",
+                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/emergencies-icon.png"
+                    }
+                ],
+                "post_url": {
+                    "url": "https:\/\/www.peerlesshospital.com\/medical-department\/emergency_medicine.html",
+                    "link_text": "Emergencies"
+                },
+                "is_popup": "1"
+            }
+        ]
+    }
+}
