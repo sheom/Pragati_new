@@ -1,4 +1,3 @@
-import User from "../models/User.js";
 //
 import Budget from "../models/Budget.js";
 import Actual from "../models/Actual.js";
@@ -45,12 +44,14 @@ export const getConsMISData = async (req, res)=>{
     processActualData(thisYearActualData.data);
     filturedData.push(returnTemplate);
   }
+
   const resData = {
     // thisYearBudgetData,
     // thisYearActualData,
     ...filturedData
   }
-  res.status(200).json( resData ).end();
+  //res.status(200).json( resData ).end();
+  res.status(200).json( filturedData ).end();
 }
 
 const getBudgetData = async (propertyCode, budgetYear) => {
@@ -75,7 +76,11 @@ const getActualData = async (propertyCode, fye) => {
     return { message: err.message };
   }
 };
-
+//
+const getAnnualMetric = async (propertyCode, budgetYear) =>{
+  propertyCode = propertyCode;
+  budgetYear = budgetYear;
+}
 //
 const processBudgetData = (data) => {
   let payload;

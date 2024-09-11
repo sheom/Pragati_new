@@ -39,8 +39,6 @@ const HotelDashboardGraph = ({ propertyId, propertyCode, selectedYear }) => {
     //(property) => property.subsidiary === subsidiary
     (property) => property._id === propertyId
   );
-  //let reportData = []
-  //
   //Load Dynamic Data
   const getMISData = async () => {
     console.log("Loading Data from Server, please wait");
@@ -65,7 +63,6 @@ const HotelDashboardGraph = ({ propertyId, propertyCode, selectedYear }) => {
       console.log("*** MIS Data from server ***");
       console.log(data);
       setReportData(data);
-      //reportData = data;
       //setFormData(data.payload);
     } else {
       alert(
@@ -89,6 +86,9 @@ const HotelDashboardGraph = ({ propertyId, propertyCode, selectedYear }) => {
   console.log("***End reportData*** from Dashboard Graph");
 
   let yearArray = [];
+  console.log("#######################################reportData############################################")
+  console.log( JSON.stringify(reportData))
+  console.log("#######################################reportData############################################")
   reportData.forEach((mis) => {
     yearArray.push(mis.year);
   });

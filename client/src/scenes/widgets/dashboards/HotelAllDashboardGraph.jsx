@@ -9,14 +9,8 @@ import {
   CardContent,
   CardMedia,
 } from "@mui/material";
-import InputLabel from "@mui/material/InputLabel";
-import MenuItem from "@mui/material/MenuItem";
-import FormControl from "@mui/material/FormControl";
-import Select from "@mui/material/Select";
-
-import { phh_logo } from "assets";
 //
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import allProperties from "../../../data/properties";
@@ -30,30 +24,72 @@ import AllChartQuarterlyRange from "components/charts/AllChartQuarterlyRange";
 
 const HotelAllDashboardGraph = ({ propertyId, selectedYear }) => {
   const dispatch = useDispatch();
-
   const navigate = useNavigate();
   const { _id } = useSelector((state) => state.user);
   const token = useSelector((state) => state.token);
   const subsidiary = useSelector((state) => state.user.subsidiary);
-  //
   const [statePageData, setStatePageData] = useState({});
+  //
+  const [reportData, setReportData] = useState([]);
   //
   const isNonMobileScreens = useMediaQuery("(min-width:800px)");
 
   const filturedProps = allProperties.filter(
-    //(property) => property.subsidiary === subsidiary
     (property) => property._id === propertyId
   );
+  // const reportData = allData.filter(
+  //   (rawData) => rawData.propertyID === propertyId
+  // );
+  // console.log("***reportData***");
+  // console.log(reportData);
+  ///////////////////////////////////////////////////////////////////////////////////////////
+  //
+  //Load Dynamic Data
+  const getMISData = async () => {
+    console.log("Loading Data from Server, please wait");
+    let propertyCode = "PHL-All"
+    //"https://sheom.in/",
+    //http://localhost:4000/mis?propertyCode=PHL&year=2024
+    //alert("selectedYear: "+selectedYear)
+    let misYear = Number(selectedYear.split("-")[1]);
+    //alert("misYear: "+misYear)
+    let responseURL ="http://localhost:4000/mis/cons?propertyCode=PHL&year=2025"
+    //responseURL = `https://sheom.in/mis/cons?propertyCode=${propertyCode}&year=${misYear}`
+    
+    const response = await fetch(responseURL,
+      {
+        //const response = await fetch(`http://localhost:4000/mis?propertyCode=${propertyCode}&year=${new Date().getFullYear() + 1}`, {
+        method: "GET",
+        headers: { Authorization: `Bearer ${token}` },
+      }
+    );
+    const data = await response.json();
+    if (data) {
+      // console.log("MIS Year: " + misYear);
+      // console.log("*** MIS Data from server ***");
+      // console.log(data);
+      setReportData(data);
+    } else {
+      alert(
+        "There is an error loading data from server. Please try after some time"
+      );
+      navigate("/home");
+    }
+  };
+  //
+  useEffect(() => {
+    //getBudget();
+    getMISData();
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
-  const reportData = allData.filter(
-    (rawData) => rawData.propertyID === propertyId
-  );
-  console.log("***reportData***");
-  console.log(reportData);
-
+  ///////////////////////////////////////////////////////////////////////////////////////////
 
 
   let yearArray = [];
+  // console.log("#######################################All reportData############################################")
+  // console.log( JSON.stringify(reportData))
+  // console.log("####################################### All reportData############################################")
+
   reportData.forEach((mis) => {
     yearArray.push(mis.year);
   });
@@ -78,6 +114,7 @@ const HotelAllDashboardGraph = ({ propertyId, selectedYear }) => {
   //////////////////////////Helper functions////////////////
   let myPageData = {};
   const populatePageData = () => {
+    //alert("myPageData: called ")
     myPageData = {
       endYear,
       lastYearRevenueArr: [],
@@ -104,10 +141,10 @@ const HotelAllDashboardGraph = ({ propertyId, selectedYear }) => {
       thisYearArrTargetArr: [],
       thisYearArrActualArr: [],
     };
-
     //
     reportData.forEach((mis) => {
-      if (mis.year === endYear) {
+      //alert("mis.year:"+mis.year)
+      if (Number(mis.year) === Number(endYear)) {
         myPageData.thisYearRevenueActualArr = [...mis.data.revenue.actual];
         myPageData.thisYearRevenueTargetArr = [...mis.data.revenue.target];
 
@@ -125,7 +162,7 @@ const HotelAllDashboardGraph = ({ propertyId, selectedYear }) => {
 
         myPageData.thisYearArrActualArr = [...mis.data.arr.actual];
         myPageData.thisYearArrTargetArr = [...mis.data.arr.target];
-      } else if (mis.year === endYear - 1) {
+      } else if (Number(mis.year) === Number(endYear) - 1) {
         myPageData.lastYearRevenueArr = [...mis.data.revenue.actual];
         myPageData.lastYearPBTArr = [...mis.data.PBT.actual];
         myPageData.lastYearEBDITAArr = [...mis.data.EBIDTA.actual];
@@ -136,9 +173,6 @@ const HotelAllDashboardGraph = ({ propertyId, selectedYear }) => {
       }
     });
     for (let a = 0; a < 12; a++) {
-      //
-      //updating EBIDTA mgn dynamically
-      //
       myPageData.lastYearEBDITAmgn[a] = Number(
         myPageData.lastYearEBDITAArr[a] / myPageData.lastYearRevenueArr[a]
       ).toFixed(2);

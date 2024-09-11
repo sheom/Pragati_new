@@ -666,8 +666,6 @@ const processActualData = (data) => {
   returnTemplate.data.ALOS.actual_q = [ ...ALOSData.actual_q ]
   returnTemplate.data.ALOS.actual_ytd = [...ALOSData.actual_ytd];
   //
-
-  //
 };
 //
 //
