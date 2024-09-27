@@ -86,15 +86,10 @@ const HotelAllDashboardGraph = ({ propertyId, selectedYear }) => {
 
 
   let yearArray = [];
-  // console.log("#######################################All reportData############################################")
-  // console.log( JSON.stringify(reportData))
-  // console.log("####################################### All reportData############################################")
-
   reportData.forEach((mis) => {
     yearArray.push(mis.year);
   });
   yearArray.sort();
-  //console.log(yearArray);
 
   let endYear = selectedYear
     ? Number(selectedYear.split("-")[1])
@@ -114,7 +109,6 @@ const HotelAllDashboardGraph = ({ propertyId, selectedYear }) => {
   //////////////////////////Helper functions////////////////
   let myPageData = {};
   const populatePageData = () => {
-    //alert("myPageData: called ")
     myPageData = {
       endYear,
       lastYearRevenueArr: [],
@@ -143,7 +137,6 @@ const HotelAllDashboardGraph = ({ propertyId, selectedYear }) => {
     };
     //
     reportData.forEach((mis) => {
-      //alert("mis.year:"+mis.year)
       if (Number(mis.year) === Number(endYear)) {
         myPageData.thisYearRevenueActualArr = [...mis.data.revenue.actual];
         myPageData.thisYearRevenueTargetArr = [...mis.data.revenue.target];
@@ -190,11 +183,6 @@ const HotelAllDashboardGraph = ({ propertyId, selectedYear }) => {
   populatePageData();
 
   const { palette } = useTheme();
-  //const dark = palette.neutral.dark;
-  //const medium = palette.neutral.medium;
-  //const main = palette.neutral.main;
-  //const colors = tokens(theme.palette.mode);
-  //const colors = palette.neutral.main;
 
   const handleYearChange = (event) => {
     alert(event.target.value);
@@ -272,10 +260,6 @@ const HotelAllDashboardGraph = ({ propertyId, selectedYear }) => {
     if (item === "EBIDTAmgn") {
       let budget; //= getArraySum([...myPageData.thisYearEBIDTATargetmgn])/12
       let actual; //= getArraySum([...myPageData.thisYearEBIDTAActualmgn])/(myPageData.thisYearEBIDTAActualmgn.length)
-      // budget = (
-      //   (getArraySum(myPageData.thisYearEBIDTATargetArr) /
-      //   getArraySum(myPageData.thisYearRevenueTargetArr))*100
-      //   )
       budget =
         (getArraySum(
           myPageData.thisYearEBIDTATargetArr.slice(

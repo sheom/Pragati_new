@@ -67,8 +67,10 @@ const ActualPage = () => {
         selectedWidget = (
           <HospitalActualFormWidget
             propertyId={propertyId}
-            propertyName={"Peerless Hospital"}
-            propertyCode={"PHH"}
+            propertyName={filturedProperty[0].title}
+            propertyCode={filturedProperty[0].propertyCode}
+            //propertyName={"Peerless Hospital"}
+            //propertyCode={"PHH"}
           />
         );
       // } else if (subsidiary === "Financial Product Distribution") {

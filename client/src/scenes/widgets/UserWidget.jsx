@@ -155,12 +155,12 @@ const UserWidget = ({ userId, picturePath }) => {
 
         <FlexBetween gap="1rem" mb="0.5rem">
           <Button variant="outlined" fullWidth onClick={() =>{
-            if(subsidiary === "Hotel"){
-              navigate("/hotel_home")
-            }else{
-              navigate("/home")
-            }
-            
+            // if(subsidiary === "Hotel"){
+            //   navigate("/hotel_home")
+            // }else{
+            //   navigate("/home")
+            // }
+            navigate("/hotel_home")
           }} >
             Home
           </Button>

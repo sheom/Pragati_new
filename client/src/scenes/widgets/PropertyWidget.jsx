@@ -25,22 +25,10 @@ import allProperties from "data/properties";
 import HotelPropertyWidget from "./HotelPropertyWidget";
 
 const PropertyWidget = ({ propertyId }) => {
-  //const dispatch = useDispatch();
-  //const [isImage, setIsImage] = useState(false);
-  //const [image, setImage] = useState(null);
-  //const [post, setPost] = useState("");
-  //const { palette } = useTheme();
   const { _id, userRole } = useSelector((state) => state.user);
-  //const token = useSelector((state) => state.token);
-
   const subsidiary = useSelector((state) => state.user.subsidiary);
-  //const isNonMobileScreens = useMediaQuery("(min-width: 1000px)");
-  //const mediumMain = palette.neutral.mediumMain;
-  //const medium = palette.neutral.medium;
   const navigate = useNavigate();
 
-  //
-  //
   const filturedProperty = allProperties.filter(
     (property) => property._id === propertyId
   );
@@ -48,13 +36,15 @@ const PropertyWidget = ({ propertyId }) => {
   const checkMapping = () => {
     if (
       subsidiary !== "Hotel" &&
+      subsidiary !== "Hospital" &&
       subsidiary !== "PGFI" &&
       filturedProperty[0].subsidiary !== subsidiary
     ) {
       return <h1>You are not authorised to view this property </h1>;
     } else if (
       subsidiary === "PGFI" ||
-      filturedProperty[0].propertyCode === "PHL-All"
+      filturedProperty[0].propertyCode === "PHL-All" ||
+      filturedProperty[0].propertyCode === "PHH-All"
     ) {
       if (filturedProperty[0].subsidiary === "PGFI") {
         return (

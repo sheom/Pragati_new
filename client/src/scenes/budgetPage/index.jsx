@@ -65,7 +65,8 @@ const BudgetPage = () => {
         selectedWidget = (
           <HospitalTargetFormWidget
             propertyName={"Peerless Hospital"}
-            propertyCode={"PHH"}
+            //propertyCode={"PHH"}
+            propertyCode={filturedProperty[0].propertyCode}
             propertyId={propertyId}
           />
         );

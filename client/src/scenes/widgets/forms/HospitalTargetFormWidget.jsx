@@ -65,9 +65,8 @@ const HospitalTargetFormWidget = ({
       }
     );
     const data = await response.json();
+    //alert("data: "+JSON.stringify(data))
     if (data) {
-      //console.log("Returned Budget Data")
-      //console.log(data)
       setFormData(data.payload);
       setFormLocked(data.locked)
       setActiveStepIndex(4);
@@ -103,6 +102,7 @@ const HospitalTargetFormWidget = ({
             }}
           >
             <div>
+            {propertyCode}
               <HospitalStep
                 propertyName={propertyName}
                 propertyCode={propertyCode}
@@ -120,6 +120,7 @@ const HospitalTargetFormWidget = ({
     <>
       <>
         <WidgetWrapper>
+          {propertyCode}
           <Box
             display="flex"
             justifyContent="center"
@@ -132,7 +133,7 @@ const HospitalTargetFormWidget = ({
               color="#FF0000"
               align="center"
             >
-              {propertyName} <br />
+              {propertyName} {propertyCode} <br />
               Enter budget data for Financial year {fye-1}-{fye}
             </Typography>
           </Box>

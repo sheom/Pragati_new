@@ -27,11 +27,11 @@ const DashboardPage = () => {
   const filturedProperty = allProperties.filter(property => property._id === propertyId );
 
   const checkMapping = ()=>{
-    if( (subsidiary === "PGFI") || (subsidiary === "Hotel") || (filturedProperty[0].subsidiary === subsidiary ) ){
+    if( (subsidiary === "PGFI") || (subsidiary === "Hotel")  || (subsidiary === "Hospital") || (filturedProperty[0].subsidiary === subsidiary ) ){
       let selectedWidget
       if ( (filturedProperty[0].subsidiary === "Hotel") || (filturedProperty[0].subsidiary === "Hotel-All") || (filturedProperty[0].subsidiary === "PGFI") ){
         selectedWidget = <HotelDashboardWidget propertyId={propertyId} />
-      }else if (filturedProperty[0].subsidiary === "Hospital"){
+      }else if ( (filturedProperty[0].subsidiary === "Hospital") || (filturedProperty[0].subsidiary === "Hospital-All") || (filturedProperty[0].subsidiary === "PGFI") ){
         selectedWidget = <HospitalDashboardWidget propertyId={propertyId} />
       }else if(filturedProperty[0].subsidiary === "Financial Product Distribution"){
         selectedWidget = <PfpdlDashboardWidget propertyId={propertyId} />
@@ -47,14 +47,6 @@ const DashboardPage = () => {
 
       return(
         <>
-           {/* <PropertyDetailsCard
-                key={filturedProperty[0]._id}
-                id={filturedProperty[0]._id}
-                title={filturedProperty[0].title}
-                location={filturedProperty[0].location}
-                photo={filturedProperty[0].photo}
-            />
-          <Divider sx={{ margin: "1.25rem 0" }} /> */}
           { selectedWidget }
           <FlexBetween gap="1rem" mb="0.5rem">
           <Button variant="outlined" fullWidth onClick={() => navigate(`/property/show/${propertyId}`)} >
@@ -66,7 +58,7 @@ const DashboardPage = () => {
     }else{
       return (
         <>
-          <h1>You are Not Authorised to view this page.</h1>
+          <h1>You are Not Authorised to view this page. {filturedProperty[0].subsidiary} Hello</h1>
         </>
       );
     }
@@ -93,6 +85,8 @@ const DashboardPage = () => {
           mt={isNonMobileScreens ? undefined : "1rem"}
           justifyContent="space-between"
         >
+          {filturedProperty[0].subsidiary}
+
           { checkMapping() }
           
 

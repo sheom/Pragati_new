@@ -8,7 +8,6 @@ const allProperties =[
       "subsidiary" : "Hotel-All",
       "location":"Kolkata",
       "photo":"/assets/imgs/phl_consolidated.jpg",
-      //"photo":"/assets/imgs/phl_rect.jpg",
       "photo_small":"/assets/imgs/HotelLogo.jpeg",
       "creator":{"$oid":"6454acdfcd964cd7147a93d0"},
       "__v":{"$numberInt":"0"}
@@ -98,9 +97,41 @@ const allProperties =[
       "creator":{"$oid":"6454acdfcd964cd7147a93d0"},
       "__v":{"$numberInt":"0"}
     },
+    /** 
+     *Starting Hospital section
+     *  
+    */
+    {
+      "_id":"6488063a4601d15e2d1680H4",
+      "title":"Peerless Hospital -\n Consolidated View",
+      "description":"This is description text for Peerless Hospital",
+      "propertyType":"PHH-All",
+      "propertyCode":"PHH-All",
+      "subsidiary" : "Hospital-All",
+      "location":"Kolkata & Barasat",
+      "photo":"/assets/imgs/phh_consolidated.jpg",
+      "photo_small":"/assets/imgs/HospitalLogo.jpg",
+      "creator":{"$oid":"6454acdfcd964cd7147a93d0"},
+      "__v":{"$numberInt":"0"}
+    },
+    {
+      "_id":"6488063a4601d15e2d1680H5",
+      "title":"Peerless Hospital - Property View",
+      "description":"This is description text for Peerless Hospital",
+      "propertyType":"PHH-Sub",
+      "propertyCode":"PHH-All",
+      "subsidiary" : "Hospital-All",
+      "location":"Kolkata & Barasat",
+      "photo":"/assets/imgs/phl_consolidated.jpg",
+      //"photo":"/assets/imgs/phl_rect.jpg",
+      "photo_small":"/assets/imgs/HospitalLogo.jpg",
+      //"photo_small":"/assets/imgs/HotelLogo.jpeg",
+      "creator":{"$oid":"6454acdfcd964cd7147a93d0"},
+      "__v":{"$numberInt":"0"}
+    },
     {
       "_id":"648808cb4601d15e2d1680d8",
-      "title":"Peerless Hospital",
+      "title":"Peerless Hospital - Panchasayar",
       "description":"This is description text for Peerless Hospital",
       "propertyType":"PHH",
       "propertyCode":"PHH",
@@ -112,6 +143,24 @@ const allProperties =[
       "creator":{"$oid":"6454acdfcd964cd7147a93d0"},
       "__v":{"$numberInt":"0"}
     },
+    {
+      "_id":"648808cb4601d15e2d1680d9",
+      "title":"Peerless Hospital -  Barasat2",
+      "description":"This is description text for Peerless Hospital Barasat",
+      "propertyType":"PHH",
+      "propertyCode":"PHHB",
+      "subsidiary" : "Hospital",
+      "location":"Barasat",
+      //"photo":"https://www.peerlesshospital.com/hospital-kolkata/images/banner_inner.jpg",
+      "photo":"/assets/imgs/phhb_full.jpg",
+      "photo_small":"/assets/imgs/phhb_full.jpg",
+      "creator":{"$oid":"6454acdfcd964cd7147a93d0"},
+      "__v":{"$numberInt":"0"}
+    },
+    /** 
+     * End Hospital section
+     *  
+    */
     {
       "_id":"648809284601d15e2d1680db",
       "title":"Peerless Financial Products Distribution Ltd",

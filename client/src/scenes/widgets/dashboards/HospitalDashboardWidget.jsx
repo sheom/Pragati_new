@@ -51,17 +51,11 @@ import MultipleRadialbars from "components/charts/MultipleRadialbars";
 const HospitalDashboardWidget = ({ propertyId }) => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
-  //const [isImage, setIsImage] = useState(false);
-  //const [image, setImage] = useState(null);
-  //const [selectedYear, setSelectedYear] = useState("Show All");
   const [selectedYear, setSelectedYear] = useState("2024-2025");
   //const { palette } = useTheme();
   const { _id } = useSelector((state) => state.user);
   const token = useSelector((state) => state.token);
   const subsidiary = useSelector((state) => state.user.subsidiary);
-  //const isNonMobileScreens = useMediaQuery("(min-width: 1000px)");
-  //const mediumMain = palette.neutral.mediumMain;
-  //const medium = palette.neutral.medium;
   //
   const isNonMobileScreens = useMediaQuery("(min-width:800px)");
 
@@ -69,10 +63,6 @@ const HospitalDashboardWidget = ({ propertyId }) => {
     (property) => property.subsidiary === subsidiary
   );
   const { palette } = useTheme();
-  //const dark = palette.neutral.dark;
-  //const medium = palette.neutral.medium;
-  //const main = palette.neutral.main;
-  //const colors = tokens(theme.palette.mode);
   const colors = palette.neutral.main;
 
   const displayProperties = () => {
@@ -102,6 +92,7 @@ const HospitalDashboardWidget = ({ propertyId }) => {
           justifyContent: "space-between",
         }}
       >
+        Hospital Page
         <div style={{ width: isNonMobileScreens ? "250px" : "150px" }}>
           <FormControl variant="standard"
           style={{ width: isNonMobileScreens ? "250px" : "150px" }}

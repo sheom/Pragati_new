@@ -44,12 +44,6 @@ const HotelDashboardWidget = ({ propertyId }) => {
     setSelectedYear(endYear);
   };
   const makeDashboardMapping = ()=>{
-    // console.log( "filturedProps *** from DashBoard wideget " )
-    // console.log( filturedProps )
-    // console.log("subsidiary: "+filturedProps[0].subsidiary)
-    // console.log("PropertyCode is: "+ filturedProps[0].propertyCode )
-    // console.log("Value is:"+ (filturedProps[0].subsidiary === "Hotel-All") )
-
     if(filturedProps[0].subsidiary === "Hotel-All"){
       return (
         <HotelAllDashboardGraph propertyId={propertyId} propertyCode = {filturedProps[0].propertyCode} selectedYear={selectedYear} />
