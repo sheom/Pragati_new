@@ -1,11 +1,3 @@
-import { Directions } from "@mui/icons-material";
-
-import DownloadOutlinedIcon from "@mui/icons-material/DownloadOutlined";
-import EmailIcon from "@mui/icons-material/Email";
-import PointOfSaleIcon from "@mui/icons-material/PointOfSale";
-import PersonAddIcon from "@mui/icons-material/PersonAdd";
-import TrafficIcon from "@mui/icons-material/Traffic";
-
 import {
   Box,
   Divider,
@@ -13,14 +5,8 @@ import {
   //InputBase,
   useTheme,
   Button,
-  IconButton,
   useMediaQuery,
-  Card,
-  CardContent,
-  CardMedia,
 } from "@mui/material";
-import FlexBetween from "components/FlexBetween";
-import WidgetWrapper from "components/WidgetWrapper";
 
 import InputLabel from "@mui/material/InputLabel";
 import MenuItem from "@mui/material/MenuItem";
@@ -28,39 +14,28 @@ import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
 //
 //import PropertyCard from "components/common/PropertyCard";
-import { phh_logo } from "assets";
-
 //
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
-import { setPosts } from "state";
 import allProperties from "../../../data/properties";
 import HospitalDashboardGraph from "./HospitalDashboardGraph";
 
 //import StatBox from "../../components/StatBox";
 //import ProgressCircle from "../../components/ProgressCircle";
 
-import PieChart from "components/charts/PieChart";
-import LineChart from "components/charts/LineChart";
-import LineChartQuarterly from "components/charts/LineChartQuarterly";
-import AllChart from "components/charts/AllChart";
-import AllChartQuarterly from "components/charts/AllChartQuarterly";
-import MultipleRadialbars from "components/charts/MultipleRadialbars";
-
 const HospitalDashboardWidget = ({ propertyId }) => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const [selectedYear, setSelectedYear] = useState("2024-2025");
   //const { palette } = useTheme();
-  const { _id } = useSelector((state) => state.user);
-  const token = useSelector((state) => state.token);
   const subsidiary = useSelector((state) => state.user.subsidiary);
   //
   const isNonMobileScreens = useMediaQuery("(min-width:800px)");
 
   const filturedProps = allProperties.filter(
-    (property) => property.subsidiary === subsidiary
+    //(property) => property.subsidiary === subsidiary
+    (property) => property._id === propertyId
   );
   const { palette } = useTheme();
   const colors = palette.neutral.main;
@@ -92,7 +67,6 @@ const HospitalDashboardWidget = ({ propertyId }) => {
           justifyContent: "space-between",
         }}
       >
-        Hospital Page
         <div style={{ width: isNonMobileScreens ? "250px" : "150px" }}>
           <FormControl variant="standard"
           style={{ width: isNonMobileScreens ? "250px" : "150px" }}
@@ -126,6 +100,7 @@ const HospitalDashboardWidget = ({ propertyId }) => {
           >
             Peerless Hospital
           </Typography>
+          {propertyId}
         </div>}
 
         <div>
@@ -134,7 +109,7 @@ const HospitalDashboardWidget = ({ propertyId }) => {
             style={{ width: isNonMobileScreens ? "200px" : "100px" }}
             onClick={() => navigate(`/property/show/${propertyId}`)}
           >
-            Back
+            Back from Hospital Dashboard
           </Button>
         </div>
 
@@ -143,7 +118,9 @@ const HospitalDashboardWidget = ({ propertyId }) => {
       {/* <WidgetWrapper > */}
       
       <Divider />
-      <HospitalDashboardGraph propertyId={propertyId} propertyCode = "PHH" selectedYear={selectedYear} ></HospitalDashboardGraph>
+      <HospitalDashboardGraph propertyId={propertyId} propertyCode = {filturedProps[0].propertyCode} propertyCodeOld = "PHH" selectedYear={selectedYear} >
+
+      </HospitalDashboardGraph>
       
 
       {/* </WidgetWrapper> */}

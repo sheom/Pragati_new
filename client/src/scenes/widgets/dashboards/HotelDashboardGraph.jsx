@@ -77,18 +77,14 @@ const HotelDashboardGraph = ({ propertyId, propertyCode, selectedYear }) => {
     getMISData();
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
-  // let localData = allData.filter(
-  //   (rawData) => rawData.propertyID === propertyId
-  // );
-  //reportData  = [...localData]
-  console.log("***reportData*** from Dashboard Graph");
-  console.log(reportData);
-  console.log("***End reportData*** from Dashboard Graph");
+  // console.log("***reportData*** from Dashboard Graph");
+  // console.log(reportData);
+  // console.log("***End reportData*** from Dashboard Graph");
 
   let yearArray = [];
-  console.log("#######################################reportData############################################")
-  console.log( JSON.stringify(reportData))
-  console.log("#######################################reportData############################################")
+  // console.log("#######################################reportData############################################")
+  // console.log( JSON.stringify(reportData))
+  // console.log("#######################################reportData############################################")
   reportData.forEach((mis) => {
     yearArray.push(mis.year);
   });

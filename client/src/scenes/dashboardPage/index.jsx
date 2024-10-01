@@ -52,6 +52,7 @@ const DashboardPage = () => {
           <Button variant="outlined" fullWidth onClick={() => navigate(`/property/show/${propertyId}`)} >
             Back
           </Button>
+          Selected subsidiary: {filturedProperty[0].subsidiary}
         </FlexBetween>
         </>
         )

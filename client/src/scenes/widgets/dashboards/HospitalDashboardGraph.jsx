@@ -24,23 +24,15 @@ import AllChartQuarterlyRange from "components/charts/AllChartQuarterlyRange";
 import AllChartRange from "components/charts/AllChartRange";
 
 const HospitalDashboardGraph = ({ propertyId, propertyCode, selectedYear }) => {
-  //const dispatch = useDispatch();
   const navigate = useNavigate();
-  //const { _id } = useSelector((state) => state.user);
   const token = useSelector((state) => state.token);
-  //const subsidiary = useSelector((state) => state.user.subsidiary);
-  //const [statePageData, setStatePageData] = useState({});
+  
   const [reportData, setReportData] = useState([]);
   //
   const isNonMobileScreens = useMediaQuery("(min-width:800px)");
-
-  //alert("isNonMobileScreens: "+isNonMobileScreens);
-
   const filturedProps = allProperties.filter(
-    //(property) => property.subsidiary === subsidiary
     (property) => property._id === propertyId
   );
-  //let reportData = []
   //
   //Load Dynamic Data
   const getMISData = async () => {
@@ -62,12 +54,11 @@ const HospitalDashboardGraph = ({ propertyId, propertyCode, selectedYear }) => {
     );
     const data = await response.json();
     if (data) {
-      // console.log("MIS Year: " + misYear);
-      // console.log("*** MIS Data from server ***");
-      // console.log(data);
+      console.log("MIS Year: " + misYear);
+      console.log("*** MIS Data from server ***");
+      console.log(data);
+      console.log("*** MIS Data from server ***");
       setReportData(data);
-      //reportData = data;
-      //setFormData(data.payload);
     } else {
       alert(
         "There is an error loading data from server. Please try after some time"
@@ -80,13 +71,6 @@ const HospitalDashboardGraph = ({ propertyId, propertyCode, selectedYear }) => {
     //getBudget();
     getMISData();
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
-
-  // let localData = allData.filter(
-  //   (rawData) => rawData.propertyID === propertyId
-  // );
-  //reportData  = [...localData]
-  // console.log("***reportData*** from Dashboard Graph");
-  // console.log(reportData);
 
   let yearArray = [];
   reportData.forEach((mis) => {

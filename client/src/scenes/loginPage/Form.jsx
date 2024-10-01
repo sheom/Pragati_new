@@ -90,12 +90,12 @@ const Form = () => {
           token: loggedIn.token,
         })
       );
-      // if( (loggedIn.user.subsidiary === "Hotel")){
-      //   navigate("/hotel_home");
-      // }else{
-      //   navigate("/home");
-      // }
-      navigate("/hotel_home");
+      if( (loggedIn.user.subsidiary === "Hotel")){
+        navigate("/hotel_home");
+      }else{
+        navigate("/home");
+      }
+      //navigate("/hotel_home");
     }
   };
 
