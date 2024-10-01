@@ -4,10 +4,9 @@ import { useNavigate } from "react-router-dom";
 //
 import Navbar from "scenes/navbar";
 import UserWidget from "scenes/widgets/UserWidget";
-import HotelPropertyWidget from "scenes/widgets/HotelPropertyWidget";
 
+import HospitalPropertyWidget from "scenes/widgets/HospitalPropertyWidget";
 import AdvertWidget from "scenes/widgets/AdvertWidget";
-import PgfiPropertyWidget from "scenes/widgets/PgfiPropertyWidget";
 
 const HospitalHomePage = () => {
   const isNonMobileScreens = useMediaQuery("(min-width:1000px)");
@@ -16,12 +15,12 @@ const HospitalHomePage = () => {
 
   const makeWidget = ()=>{
     if(subsidiary === "PGFI"){
-      return <HotelPropertyWidget subs="PGFI" />
-    }else if(subsidiary === "Hotel"){
-      return <HotelPropertyWidget subs="Hotel-All" />
+      //return <PgfiPropertyWidget />
+      return <HospitalPropertyWidget subs="PGFI" />
     }else if(subsidiary === "Hospital"){
-      return <HotelPropertyWidget subs="Hospital" />
+      return <HospitalPropertyWidget subs="Hospital-All" />
     }else{
+      //return <SubsPropertyWidget />
       return [<h1> You are not authorized to view this content </h1>]
     }
   }

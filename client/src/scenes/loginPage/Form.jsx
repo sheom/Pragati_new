@@ -5,6 +5,7 @@ import {
   TextField,
   useMediaQuery,
   useTheme,
+  Typography
 } from "@mui/material";
 
 import { Formik } from "formik";
@@ -21,6 +22,8 @@ const registerSchema = yup.object().shape({
   password: yup.string().required("required"),
   location: yup.string().required("required"),
   subsidiary: yup.string().required("required"),
+  //subsidiaryId: yup.string().required("required"),
+  //picture: yup.string().required("required"),
 });
 
 const loginSchema = yup.object().shape({
@@ -35,6 +38,7 @@ const initialValuesRegister = {
   password: "",
   location: "",
   subsidiary: "",
+  //subsidiaryId: "",
 };
 
 const initialValuesLogin = {
@@ -52,10 +56,12 @@ const Form = () => {
   const isRegister = pageType === "register";
 
   const register = async (values, onSubmitProps) => {
+    // this allows us to send form info with image
     const formData = new FormData();
     for (let value in values) {
       formData.append(value, values[value]);
     }
+    //formData.append("picturePath", values.picture.name);
     const savedUserResponse = await fetch(
       "https://sheom.in/auth/register",
       //"http://localhost:4000/auth/register",
@@ -63,6 +69,7 @@ const Form = () => {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(values),
+        //body: formData,
       }
     );
     const savedUser = await savedUserResponse.json();
@@ -74,7 +81,11 @@ const Form = () => {
   };
 
   const login = async (values, onSubmitProps) => {
+    //values.email 
+    //https://sheom.in/
+    //https://sheom.in/
     //const loggedInResponse = await fetch("http://localhost:4000/auth/login", {
+    //
     const loggedInResponse = await fetch("https://sheom.in/auth/login", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -90,9 +101,16 @@ const Form = () => {
           token: loggedIn.token,
         })
       );
-      if( (loggedIn.user.subsidiary === "Hotel")){
+      // console.log("loggedIn")
+      // console.log(loggedIn)
+      // console.log("loggedIn.user")
+      // console.log(loggedIn.user)
+      if( (loggedIn.user.subsidiary === "Hotel")){// || (loggedIn.user.subsidiary === "PGFI") ){
         navigate("/hotel_home");
-      }else{
+      }else if( (loggedIn.user.subsidiary === "Hospital")){
+        navigate("/hospital_home");
+      }
+      else{
         navigate("/home");
       }
     }
@@ -116,6 +134,7 @@ const Form = () => {
         handleBlur,
         handleChange,
         handleSubmit,
+        //setFieldValue,
         resetForm,
       }) => (
         <form onSubmit={handleSubmit}>
@@ -187,6 +206,40 @@ const Form = () => {
                   helperText={touched.subsidiaryId && errors.subsidiaryId}
                   sx={{ gridColumn: "span 4" }}
                 />
+
+                {/* <Box
+                  gridColumn="span 4"
+                  border={`1px solid ${palette.neutral.medium}`}
+                  borderRadius="5px"
+                  p="1rem"
+                >
+                  <Dropzone
+                    acceptedFiles=".jpg,.jpeg,.png"
+                    multiple={false}
+                    onDrop={(acceptedFiles) =>
+                      setFieldValue("picture", acceptedFiles[0])
+                    }
+                  >
+                    {({ getRootProps, getInputProps }) => (
+                      <Box
+                        {...getRootProps()}
+                        border={`2px dashed ${palette.primary.main}`}
+                        p="1rem"
+                        sx={{ "&:hover": { cursor: "pointer" } }}
+                      >
+                        <input {...getInputProps()} />
+                        {!values.picture ? (
+                          <p>Add Picture Here</p>
+                        ) : (
+                          <FlexBetween>
+                            <Typography>{values.picture.name}</Typography>
+                            <EditOutlinedIcon />
+                          </FlexBetween>
+                        )}
+                      </Box>
+                    )}
+                  </Dropzone>
+                </Box> */}
               </>
             )}
 
@@ -213,6 +266,7 @@ const Form = () => {
             />
           </Box>
 
+          {/* BUTTONS */}
           <Box>
             <Button
               fullWidth

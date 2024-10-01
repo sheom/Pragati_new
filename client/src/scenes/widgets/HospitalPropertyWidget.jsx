@@ -11,7 +11,7 @@ import { useNavigate } from "react-router-dom";
 import { setPosts } from "state";
 import allProperties from "../../data/properties";
 
-const HotelPropertyWidget = ({ subs }) => {
+const HospitalPropertyWidget = ({ subs }) => {
   const dispatch = useDispatch();
   const [image, setImage] = useState(null);
   const [post, setPost] = useState("");
@@ -34,7 +34,7 @@ const HotelPropertyWidget = ({ subs }) => {
   //   (property) => property.subsidiary === subs
   // );
   filturedProps = allProperties.filter(
-    (property) => property.subsidiary === "Hotel-All"//subs
+    (property) => property.subsidiary === "Hospital-All"//subs
   );
   let second_path
   if(subs=== "PGFI"){
@@ -112,4 +112,4 @@ const HotelPropertyWidget = ({ subs }) => {
   );
 };
 
-export default HotelPropertyWidget;
+export default HospitalPropertyWidget;

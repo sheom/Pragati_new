@@ -157,6 +157,8 @@ const UserWidget = ({ userId, picturePath }) => {
           <Button variant="outlined" fullWidth onClick={() =>{
             if(subsidiary === "Hotel"){
               navigate("/hotel_home")
+            }else if(subsidiary === "Hospital"){
+              navigate("/hospital_home")
             }else{
               navigate("/home")
             }

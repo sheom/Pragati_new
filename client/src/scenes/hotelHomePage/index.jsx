@@ -25,9 +25,8 @@ const HotelHomePage = () => {
       return <HotelPropertyWidget subs="PGFI" />
     }else if(subsidiary === "Hotel"){
       return <HotelPropertyWidget subs="Hotel-All" />
-    }else if(subsidiary === "Hospital"){
-      return <HotelPropertyWidget subs="Hospital" />
     }else{
+      //return <SubsPropertyWidget />
       return [<h1> You are not authorized to view this content </h1>]
     }
   }
