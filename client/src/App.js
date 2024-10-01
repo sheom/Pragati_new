@@ -4,6 +4,8 @@ import LoginPage from "scenes/loginPage";
 //
 import HomePage from "scenes/homePage";
 import HotelHomePage from "scenes/hotelHomePage";
+import HospitalHomePage from "scenes/hospitalHomePage";
+
 import SubsHomePage from "scenes/subsHomePage";
 //
 import UserPage from "scenes/userPage";
@@ -42,6 +44,11 @@ function App() {
             <Route
               path="/hotel_home"
               element={isAuth ? <HotelHomePage /> : <Navigate to="/" />}
+              //element={ <HomePage /> }
+            />
+            <Route
+              path="/hospital_home"
+              element={isAuth ? <HospitalHomePage /> : <Navigate to="/" />}
               //element={ <HomePage /> }
             />
             <Route

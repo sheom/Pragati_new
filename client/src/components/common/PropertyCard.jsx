@@ -16,11 +16,12 @@ import { useTheme } from "@emotion/react";
 const PropertyCard = ({ id, title, location, photo, linkPath }) => {
     const {palette} = useTheme();
     const subsidiary = useSelector((state) => state.user.subsidiary);
-    let targetLink = linkPath? linkPath:`/property/show/${id}`
+    //let targetLink = (linkPath ==="/undefined")? `/property/show/${id}`:linkPath
+    let targetLink = (linkPath && (linkPath !=="/undefined") ) ? linkPath:`/property/show/${id}`
 
     // if( (subsidiary === "PGFI")&& (id === "6454b3ee679237cb26ce7add")){
     //     targetLink = `/dashboard/${id}`
-    // }
+    //}
 
     return (
         <Card

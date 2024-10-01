@@ -44,7 +44,8 @@ const PgfiHomeWidget = ({ picturePath }) => {
   let filturedProps;
   if(subsidiary === "PGFI"){
     //filturedProps = (allProperties.filter(property => (property.subsidiary !== "Hotel" && property.subsidiary !== "Hotel-All" ) ));
-    filturedProps = (allProperties.filter(property => (property.subsidiary === "Hospital" || property.subsidiary === "Hotel-All" ) ));
+    //filturedProps = (allProperties.filter(property => (property.subsidiary === "Hospital-All" || property.subsidiary === "Hotel-All" ) ));
+    filturedProps = (allProperties.filter(property => (property.propertyType === "PHH-All" || property.propertyType === "PHL-All" ) ));
   }else{
     filturedProps = allProperties.filter(property => property.subsidiary === subsidiary );
   }
@@ -52,28 +53,43 @@ const PgfiHomeWidget = ({ picturePath }) => {
 
   const displayHomeProperties =  ()=>{
     return(
-      <>
-          <PropertyCard
-            key={filturedProps[0]._id}
-            id={filturedProps[0]._id}
-            title={filturedProps[0].title.toString().split("-")[0] }
-            location={filturedProps[0].location}
-            //price={property.price}
-            photo={filturedProps[0].photo_small}
-            //linkPath={`/property/show/${filturedProps[0]._id}`}
-            linkPath={`/hotel_home`}
-          />
-          <PropertyCard
-            key={filturedProps[2]._id}
-            id={filturedProps[2]._id}
-            title={filturedProps[2].title}
-            location={filturedProps[2].location}
-            //price={property.price}
-            photo={filturedProps[2].photo_small}
-            linkPath={`/property/show/${filturedProps[2]._id}`}
-            //linkPath={`/home`}
-          />
-        </>
+      // <>
+      //     <PropertyCard
+      //       key={filturedProps[0]._id}
+      //       id={filturedProps[0]._id}
+      //       title={filturedProps[0].title.toString().split("-")[0] }
+      //       location={filturedProps[0].location}
+      //       //price={property.price}
+      //       photo={filturedProps[0].photo_small}
+      //       //linkPath={`/property/show/${filturedProps[0]._id}`}
+      //       //linkPath={`/hotel_home`}
+      //       linkPath={`/${filturedProps[0].linkPath}`}
+      //     />
+      //     <PropertyCard
+      //       key={filturedProps[1]._id}
+      //       id={filturedProps[1]._id}
+      //       title={filturedProps[1].title}
+      //       location={filturedProps[1].location}
+      //       //price={property.price}
+      //       photo={filturedProps[1].photo_small}
+      //       linkPath={`/${filturedProps[1].linkPath}`}
+      //       //linkPath={`/property/show/${filturedProps[2]._id}`}
+      //       //linkPath={`/home`}
+      //     />
+      //   </>
+      
+      filturedProps?.map((property) => (
+        <PropertyCard
+            key={property._id}
+            id={property._id}
+            title={property.title}
+            location={property.location}
+            price={property.price}
+            photo={property.photo_small}
+            linkPath={`/${property.linkPath}`}
+        />
+    ))
+      
     )
   }
   

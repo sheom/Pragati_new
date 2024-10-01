@@ -95,7 +95,6 @@ const Form = () => {
       }else{
         navigate("/home");
       }
-      //navigate("/hotel_home");
     }
   };
 
