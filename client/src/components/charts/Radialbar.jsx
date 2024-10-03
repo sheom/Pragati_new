@@ -4,7 +4,9 @@ import { useTheme } from "@emotion/react";
 
 const Radialbar = ({ title, series, options, type, colors, total }) => {
     //
-    
+  //   series = series.filter((s)=>{
+  //     return ( !isNaN(s.data[0]) )
+  // })
     options = {
         chart: {
           height: 350,

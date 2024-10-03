@@ -6,6 +6,9 @@ const AllChart = ({ title, series, options, type, colors }) => {
     if(!type){
         type = "line"
     }
+    series = series.filter((s)=>{
+        return ( !isNaN(s.data[0]) )
+    })
 
     return (
         <Box
@@ -51,7 +54,7 @@ const AllChart = ({ title, series, options, type, colors }) => {
                           * @param { index } index of the tick / currently executing iteration in yaxis labels array
                           */
                           formatter: function(val, index) {
-                            return (val%1 !== 0) ? val.toFixed(2):val //val
+                            return (Number(val)%1 !== 0) ? Number(val).toFixed(2):Number(val) //val
                             //return val.toFixed(2);
                             //return val;
                           }

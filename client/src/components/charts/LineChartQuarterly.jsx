@@ -4,7 +4,9 @@ import { useTheme } from "@emotion/react";
 
 const LineChartQuarterly = ({ title, value, series, colors }) => {
     const {palette} = useTheme();
-
+    series = series.filter((s)=>{
+        return ( !isNaN(s.data[0]) )
+    })
     return (
         <Box
             // id="chart"

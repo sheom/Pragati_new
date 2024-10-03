@@ -10,6 +10,9 @@ const MultipleRadialbars = ({ title, series, options, type, colors, total }) => 
     if(!type){
         type = "line"
     }
+    series = series.filter((s)=>{
+      return ( !isNaN(s.data[0]) )
+  })
     /*
     line
     area

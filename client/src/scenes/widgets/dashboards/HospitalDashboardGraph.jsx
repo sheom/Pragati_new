@@ -26,7 +26,7 @@ import AllChartRange from "components/charts/AllChartRange";
 const HospitalDashboardGraph = ({ propertyId, propertyCode, selectedYear }) => {
   const navigate = useNavigate();
   const token = useSelector((state) => state.token);
-  
+
   const [reportData, setReportData] = useState([]);
   //
   const isNonMobileScreens = useMediaQuery("(min-width:800px)");
@@ -42,12 +42,12 @@ const HospitalDashboardGraph = ({ propertyId, propertyCode, selectedYear }) => {
     //http://localhost:4000/mis?propertyCode=PHL&year=2024
     let misYear = Number(selectedYear.split("-")[1]);
     const response = await fetch(
-      `https://sheom.in/mis/new?propertyCode=${propertyCode}&year=${ misYear }`,
+      `https://sheom.in/mis/new?propertyCode=${propertyCode}&year=${misYear}`,
       {
-    //  const response = await fetch(`http://localhost:4000/mis?propertyCode=${propertyCode}&year=${ misYear }`, {
-    // const response = await fetch(
-    //   `http://localhost:4000/mis?propertyCode=PHH&year=2024`,
-    //   {
+        //  const response = await fetch(`http://localhost:4000/mis?propertyCode=${propertyCode}&year=${ misYear }`, {
+        // const response = await fetch(
+        //   `http://localhost:4000/mis?propertyCode=PHH&year=2024`,
+        //   {
         method: "GET",
         headers: { Authorization: `Bearer ${token}` },
       }
@@ -68,7 +68,6 @@ const HospitalDashboardGraph = ({ propertyId, propertyCode, selectedYear }) => {
   };
   //
   useEffect(() => {
-    //getBudget();
     getMISData();
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
@@ -77,7 +76,6 @@ const HospitalDashboardGraph = ({ propertyId, propertyCode, selectedYear }) => {
     yearArray.push(mis.year);
   });
   yearArray.sort();
-  //console.log(yearArray);
 
   let endYear = selectedYear
     ? Number(selectedYear.split("-")[1])
@@ -130,7 +128,7 @@ const HospitalDashboardGraph = ({ propertyId, propertyCode, selectedYear }) => {
 
       //Occupancy
       lastYearOccupancyTarget: [],
-      lastYearOccupancyQuatTarget : [],
+      lastYearOccupancyQuatTarget: [],
       lastYearOccupancyActual: [],
       lastYearOccupancyActualYTD: [],
       lastYearOccupancyQuatActual: [],
@@ -167,15 +165,17 @@ const HospitalDashboardGraph = ({ propertyId, propertyCode, selectedYear }) => {
       //lastYearIntRevArr: [],
       thisYearIntRevTargetArr: [],
       thisYearIntRevActualArr: [],
-      lastYearIntRevTargetArr:[],
-      lastYearIntRevActualArr:[],
+      lastYearIntRevTargetArr: [],
+      lastYearIntRevActualArr: [],
 
       //indoor_patients
       lastYearIndoorPatientActualArr: [],
       thisYearIndoorPatientTargetArr: [],
       thisYearIndoorPatientActualArr: [],
     };
-
+    if (reportData.length === 0) {
+      return;
+    }
     //
     reportData.forEach((mis) => {
       if (Number(mis.year) === Number(endYear)) {
@@ -205,16 +205,22 @@ const HospitalDashboardGraph = ({ propertyId, propertyCode, selectedYear }) => {
         ];
         //
         myPageData.thisYearOccupancyTarget = [...mis.data.occupancy.target];
-        myPageData.thisYearOccupancyQuatTarget = [...mis.data.occupancy.target_q];
-        myPageData.thisYearOccupancyQuatActual = [...mis.data.occupancy.actual_q];
+        myPageData.thisYearOccupancyQuatTarget = [
+          ...mis.data.occupancy.target_q,
+        ];
+        myPageData.thisYearOccupancyQuatActual = [
+          ...mis.data.occupancy.actual_q,
+        ];
         myPageData.thisYearOccupancyActual = [...mis.data.occupancy.actual];
-        myPageData.thisYearOccupancyActualYTD = [...mis.data.occupancy.actual_ytd];
+        myPageData.thisYearOccupancyActualYTD = [
+          ...mis.data.occupancy.actual_ytd,
+        ];
         //
         myPageData.thisYearALOSTarget = [...mis.data.ALOS.target];
 
         myPageData.thisYearALOSQuatTarget = [...mis.data.ALOS.target_q];
         myPageData.thisYearALOSQuatActual = [...mis.data.ALOS.actual_q];
-        
+
         myPageData.thisYearALOSActual = [...mis.data.ALOS.actual];
         myPageData.thisYearALOSActualYTD = [...mis.data.ALOS.actual_ytd];
         //
@@ -249,10 +255,16 @@ const HospitalDashboardGraph = ({ propertyId, propertyCode, selectedYear }) => {
         ];
         //
         myPageData.lastYearOccupancyTarget = [...mis.data.occupancy.target];
-        myPageData.lastYearOccupancyQuatTarget = [...mis.data.occupancy.target_q];
+        myPageData.lastYearOccupancyQuatTarget = [
+          ...mis.data.occupancy.target_q,
+        ];
         myPageData.lastYearOccupancyActual = [...mis.data.occupancy.actual];
-        myPageData.lastYearOccupancyActualYTD = [...mis.data.occupancy.actual_ytd];
-        myPageData.lastYearOccupancyQuatActual = [...mis.data.occupancy.actual_q];
+        myPageData.lastYearOccupancyActualYTD = [
+          ...mis.data.occupancy.actual_ytd,
+        ];
+        myPageData.lastYearOccupancyQuatActual = [
+          ...mis.data.occupancy.actual_q,
+        ];
         //
         myPageData.lastYearALOSTarget = [...mis.data.ALOS.target];
         myPageData.lastYearALOSQuatTarget = [...mis.data.ALOS.target_q];
@@ -337,7 +349,7 @@ const HospitalDashboardGraph = ({ propertyId, propertyCode, selectedYear }) => {
         ];
     }
 
-    if (actual < budget ) {
+    if (actual < budget) {
       returnArray[2] = "#FF0000";
     } else {
       returnArray[2] = "#00FF00";
@@ -346,66 +358,26 @@ const HospitalDashboardGraph = ({ propertyId, propertyCode, selectedYear }) => {
     return returnArray;
   };
 
-  const getRating = () => {
-    //alert( JSON.stringify(filturedProps[0].propertyCode) )
-    //{["PIK","PID","PIH","PRPB", "PRM"]}
-    let propCode = filturedProps[0].propertyCode;
-    let returnArray = [];
-    if (endYear === 2024) {
-      if (propCode === "PIK") {
-        returnArray = [4.3, 4.0, 3.9, 4.1];
-      }
-      if (propCode === "PID") {
-        returnArray = [4.0, 4.5, 3.8, 3.9];
-      }
-      if (propCode === "PIH") {
-        returnArray = [3.8, 4.5, 3.5, 3.6];
-      }
-      if (propCode === "PRPB") {
-        returnArray = [3.8, 4.0, 3.5, 3.5];
-      }
-      if (propCode === "PRM") {
-        returnArray = [3.8, 4.0, 3.9, 3.8];
-      }
-    }
-    return returnArray;
-  };
-
-  const getOccupancy_ytd = () => {
-    let returnValue = "";
-    // if (endYear === 2024) {
-    //   returnValue =
-    //     myPageData.thisYearOccupancyActualYTDArr[
-    //       myPageData.thisYearOccupancyActualYTDArr.length - 1
-    //     ];
-    // } else {
-    //   returnValue = Math.round(
-    //     getArraySum(myPageData.thisYearOccupancyActualArr) /
-    //       myPageData.thisYearOccupancyActualArr.length
-    //   );
-    // }
-    returnValue =
-      myPageData.thisYearOccupancyActualYTDArr[
-        myPageData.thisYearOccupancyActualYTDArr.length - 1
-      ];
-    return returnValue;
-  };
-  const getARR_ytd = () => {
-    let returnValue = "";
-    //
-    if (endYear === 2024) {
-      returnValue =
-        myPageData.thisYearArrActualYTDArr[
-          myPageData.thisYearArrActualYTDArr.length - 1
-        ];
-    } else {
-      returnValue = Math.round(
-        getArraySum(myPageData.thisYearArrActualArr) /
-          myPageData.thisYearArrActualArr.length
-      );
-    }
-    return returnValue;
-  };
+  if (reportData.length === 0) {
+    return (
+      <>
+        <div style={{ width: "100%" }}>
+          <Box
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              justifyContent: "center",
+              alignContent: "center",
+              marginBottom: "1rem",
+              marginTop: "1rem",
+            }}
+          >
+            <h1>Loading Data, Please wait.</h1>
+          </Box>
+        </div>
+      </>
+    );
+  }
 
   return (
     <>
@@ -431,7 +403,8 @@ const HospitalDashboardGraph = ({ propertyId, propertyCode, selectedYear }) => {
                 </Typography>
                 <Typography sx={{ fontSize: 16 }} color="text.secondary">
                   ₹{getArraySum(myPageData.thisYearRevenueActualArr)}Cr.
-                  {endYear === 2025 ? "(YTD)" : ""} of ₹{getArraySum(myPageData.thisYearRevenueTargetArr)}Cr.
+                  {endYear === 2025 ? "(YTD)" : ""} of ₹
+                  {getArraySum(myPageData.thisYearRevenueTargetArr)}Cr.
                 </Typography>
                 <Divider></Divider>
                 <Typography variant="h5" component="div" marginTop={"1rem"}>
@@ -439,7 +412,8 @@ const HospitalDashboardGraph = ({ propertyId, propertyCode, selectedYear }) => {
                 </Typography>
                 <Typography sx={{ fontSize: 16 }} color="text.secondary">
                   ₹{getArraySum(myPageData.thisYearPBTActualArr)}Cr.
-                  {endYear === 2025 ? "(YTD)" : ""} of ₹{getArraySum(myPageData.thisYearPBTTargetArr)}Cr.
+                  {endYear === 2025 ? "(YTD)" : ""} of ₹
+                  {getArraySum(myPageData.thisYearPBTTargetArr)}Cr.
                 </Typography>
                 <Divider></Divider>
                 <Typography variant="h5" component="div" marginTop={"1rem"}>
@@ -459,7 +433,8 @@ const HospitalDashboardGraph = ({ propertyId, propertyCode, selectedYear }) => {
                   ARBOP (FY {endYear})
                 </Typography>
                 <Typography sx={{ fontSize: 16 }} color="text.secondary">
-                  ₹{
+                  ₹
+                  {
                     myPageData.thisYearARPOBActualYTD[
                       myPageData.thisYearARPOBActualYTD.length - 1
                     ]
@@ -496,18 +471,19 @@ const HospitalDashboardGraph = ({ propertyId, propertyCode, selectedYear }) => {
         <div
           style={{
             width: "100%",
-            
           }}
         >
-          <Card style={{ 
-            height: "100%",
-            backgroundColor: palette.neutral.light,
-             }} >
+          <Card
+            style={{
+              height: "100%",
+              backgroundColor: palette.neutral.light,
+            }}
+          >
             {/* 
                 line, area, bar, radar, histogram, pie, donut, radialBar, scatter, bubble, heatmap, candlestick
               */}
             <CardContent>
-              <Box >
+              <Box>
                 <Box
                   style={{
                     display: "flex",
@@ -515,10 +491,9 @@ const HospitalDashboardGraph = ({ propertyId, propertyCode, selectedYear }) => {
                     justifyContent: "space-between",
                     marginBottom: "1rem",
                     marginTop: "1rem",
-                    
                   }}
                 >
-                  <div style={{ width: isNonMobileScreens ? "59%" : "100%" }} >
+                  <div style={{ width: isNonMobileScreens ? "59%" : "100%" }}>
                     <AllChartQuarterly
                       title="Revenue (in Cr.)"
                       type="bar"
@@ -839,7 +814,7 @@ const HospitalDashboardGraph = ({ propertyId, propertyCode, selectedYear }) => {
                             myPageData.lastYearOccupancyQuatActual[2],
                             myPageData.lastYearOccupancyQuatActual[5],
                             myPageData.lastYearOccupancyQuatActual[8],
-                            myPageData.lastYearOccupancyQuatActual[11]
+                            myPageData.lastYearOccupancyQuatActual[11],
                             // myPageData.lastYearOccupancyActualYTD[2],
                             // myPageData.lastYearOccupancyActualYTD[5],
                             // myPageData.lastYearOccupancyActualYTD[8],
@@ -864,7 +839,7 @@ const HospitalDashboardGraph = ({ propertyId, propertyCode, selectedYear }) => {
                             myPageData.thisYearOccupancyQuatActual[2],
                             myPageData.thisYearOccupancyQuatActual[5],
                             myPageData.thisYearOccupancyQuatActual[8],
-                            myPageData.thisYearOccupancyQuatActual[11]
+                            myPageData.thisYearOccupancyQuatActual[11],
                             // myPageData.thisYearOccupancyActualYTD[2],
                             // myPageData.thisYearOccupancyActualYTD[5],
                             // myPageData.thisYearOccupancyActualYTD[8],
@@ -890,15 +865,14 @@ const HospitalDashboardGraph = ({ propertyId, propertyCode, selectedYear }) => {
                     />
                   </div>
                 </Box>
-
               </Box>
             </CardContent>
           </Card>
         </div>
       </div>
-      
+
       <Divider />
-      
+
       <Card sx={{ backgroundColor: palette.neutral.light }}>
         <CardContent alignItems="center" alignContent="center">
           <Box
@@ -974,7 +948,7 @@ const HospitalDashboardGraph = ({ propertyId, propertyCode, selectedYear }) => {
                 justifyContent: "space-between",
               }}
             >
-              <Box style={{ width: isNonMobileScreens ? "29%" : "100%"  }}>
+              <Box style={{ width: isNonMobileScreens ? "29%" : "100%" }}>
                 <Radialbar
                   title="EBIDTA Budgeted vs YTD Actual"
                   series_old={[26.92]}
@@ -1059,7 +1033,7 @@ const HospitalDashboardGraph = ({ propertyId, propertyCode, selectedYear }) => {
               </Box>
               <Box style={{ width: isNonMobileScreens ? "70%" : "100%" }}>
                 <AllChart
-                  title="PBT (in Cr.)"
+                  title="PBT (in Cr.) Bar"
                   //type="bar"
                   series={[
                     {
@@ -1073,26 +1047,6 @@ const HospitalDashboardGraph = ({ propertyId, propertyCode, selectedYear }) => {
                     {
                       name: `FY ${endYear} Actuals`,
                       data: [...myPageData.thisYearPBTActualArr],
-                    },
-                  ]}
-                  series_old={[
-                    {
-                      name: "FY 23 Actuals",
-                      data: [
-                        2.7, 2.0, 4.3, 3.1, 5.6, 3.3, 3.6, 3.4, 7, 5.1, 5.3,
-                        -0.8,
-                      ],
-                    },
-                    {
-                      name: "FY 24 Budget",
-                      data: [
-                        2.7, 3.3, 5.1, 4.6, 5.5, 4.9, 3.5, 4.3, 4.7, 5.5, 5.1,
-                        4.6,
-                      ],
-                    },
-                    {
-                      name: "FY 24 Actuals",
-                      data: [3.2, 4.3, 4.44, 2.5],
                     },
                   ]}
                 />
@@ -1539,12 +1493,8 @@ const HospitalDashboardGraph = ({ propertyId, propertyCode, selectedYear }) => {
                   series_old={[27.96]}
                   series={[
                     `${Math.round(
-                      (getArraySum([
-                        ...myPageData.thisYearIntRevActualArr,
-                      ]) /
-                        getArraySum([
-                          ...myPageData.thisYearIntRevTargetArr,
-                        ])) *
+                      (getArraySum([...myPageData.thisYearIntRevActualArr]) /
+                        getArraySum([...myPageData.thisYearIntRevTargetArr])) *
                         100
                     )}`,
                   ]}
@@ -1562,7 +1512,7 @@ const HospitalDashboardGraph = ({ propertyId, propertyCode, selectedYear }) => {
                       //   1663, 1611, 1621,
                       // ],
                       name: `FY ${endYear - 1} Actuals`,
-                      data: [...myPageData.lastYearIntRevActualArr ],
+                      data: [...myPageData.lastYearIntRevActualArr],
                     },
                     {
                       // name: "FY 24 Budget",
@@ -1583,7 +1533,6 @@ const HospitalDashboardGraph = ({ propertyId, propertyCode, selectedYear }) => {
                 />
               </Box>
             </Box>
-
           </Box>
         </CardContent>
       </Card>

@@ -590,7 +590,7 @@ const HospitalActualFormWidget = ({ propertyName, propertyCode, propertyId }) =>
                                 </FormControl>
                               </Grid>
 
-                              {/* <hr />
+                               <hr />
                               <Grid item xs={12} sm={6}>
                                 ALOS: (in days) - for this quarter
                                 <FormControl fullWidth sx={{ m: 1 }}>
@@ -600,7 +600,7 @@ const HospitalActualFormWidget = ({ propertyName, propertyCode, propertyId }) =>
                                   <OutlinedInput
                                   endAdornment={
                                     <InputAdornment position="end">
-                                      daysq
+                                      days
                                     </InputAdornment>
                                   }
                                     placeholder="ALOS - Quarterly"
@@ -620,7 +620,7 @@ const HospitalActualFormWidget = ({ propertyName, propertyCode, propertyId }) =>
                                     }
                                   />
                                 </FormControl>
-                              </Grid> */}
+                              </Grid> 
 
                               
                               <Grid item xs={12} sm={6}>
@@ -686,7 +686,7 @@ const HospitalActualFormWidget = ({ propertyName, propertyCode, propertyId }) =>
                                 </FormControl>
                               </Grid>
 
-                              {/* <hr/>
+                               <hr/>
                               <Grid item xs={12} sm={6}>
                                 ARPOB: (in INR) - for this quarter
                                 <FormControl fullWidth sx={{ m: 1 }}>
@@ -717,7 +717,7 @@ const HospitalActualFormWidget = ({ propertyName, propertyCode, propertyId }) =>
                                     }
                                   />
                                 </FormControl>
-                              </Grid> */}
+                              </Grid> 
 
                               <Grid item xs={12} sm={6}>
                                 Occupancy: (in percent) - Month
@@ -783,7 +783,7 @@ const HospitalActualFormWidget = ({ propertyName, propertyCode, propertyId }) =>
                                 </FormControl>
                               </Grid>
 
-                              {/* <hr/>
+                              <hr/>
                               <Grid item xs={12} sm={6}>
                                 Occupancy: (in percent) - quarter
                                 <FormControl fullWidth sx={{ m: 1 }}>
@@ -814,7 +814,7 @@ const HospitalActualFormWidget = ({ propertyName, propertyCode, propertyId }) =>
                                     }
                                   />
                                 </FormControl>
-                              </Grid> */}
+                              </Grid>
 
                               <Grid item xs={12} sm={12}>
                               International Revenue in Cr.:

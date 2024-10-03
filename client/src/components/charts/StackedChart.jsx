@@ -6,7 +6,9 @@ const StackedChart = ({ title, series, options, type, colors }) => {
     if(!type){
         type = "line"
     }
-
+    // series = series.filter((s)=>{
+    //     return ( !isNaN(s.data[0]) )
+    // })
     return (
         <Box
              bgcolor= "#ffffff"
