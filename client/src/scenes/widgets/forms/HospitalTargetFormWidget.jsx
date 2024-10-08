@@ -102,7 +102,7 @@ const HospitalTargetFormWidget = ({
             }}
           >
             <div>
-            {propertyCode}
+            {/* {propertyCode} */}
               <HospitalStep
                 propertyName={propertyName}
                 propertyCode={propertyCode}
@@ -120,7 +120,7 @@ const HospitalTargetFormWidget = ({
     <>
       <>
         <WidgetWrapper>
-          {propertyCode}
+          {/* {propertyCode} */}
           <Box
             display="flex"
             justifyContent="center"
@@ -133,7 +133,7 @@ const HospitalTargetFormWidget = ({
               color="#FF0000"
               align="center"
             >
-              {propertyName} {propertyCode} <br />
+              {propertyName} <br />
               Enter budget data for Financial year {fye-1}-{fye}
             </Typography>
           </Box>

@@ -47,24 +47,7 @@ const HotelPropertyWidget = ({ subs }) => {
   const displayProperties = () => {
     if (filturedProps.length === 0) {
       return <h1>No Property is available for this user</h1>;
-      // }else if(filturedProps.length === 1 ){
-      //   //alert("Only One Property is available now: "+filturedProps[0]._id)
-      //   return navigate(`/property/show/${filturedProps[0]._id}`)
     } else {
-      //   return filturedProps?.map((property) => (
-      //     // {if(property.propertyType == ){
-      //     // }}
-      //     <PropertyCard
-      //         key={property._id}
-      //         id={property._id}
-      //         title={property.title}
-      //         location={property.location}
-      //         price={property.price}
-      //         photo={property.photo}
-      //         //linkPath={`/property/show/${property._id}`}
-      //         linkPath={`/home`}
-      //     />
-      // ))
       return (
         <>
           <PropertyCard

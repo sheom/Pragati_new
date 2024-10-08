@@ -27,7 +27,6 @@ const HospitalHomePage = () => {
 
   return (
     <Box>
-      Hospital Home Page
       <Navbar />
       <Box
         width="100%"

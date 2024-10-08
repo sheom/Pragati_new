@@ -1,10 +1,8 @@
 import { Box, useMediaQuery } from "@mui/material";
-import Divider from "@mui/material/Divider";
 import { useSelector } from "react-redux";
 import Navbar from "scenes/navbar";
 import UserWidget from "scenes/widgets/UserWidget";
 import AdvertWidget from "scenes/widgets/AdvertWidget";
-//import FriendListWidget from "scenes/widgets/FriendListWidget";
 import { useNavigate } from "react-router-dom";
 import { useParams } from "react-router-dom";
 //
@@ -12,7 +10,6 @@ import { useParams } from "react-router-dom";
 import allProperties from "data/properties";
 import WidgetWrapper from "components/WidgetWrapper";
 //
-import PropertyDetailsCard from "components/common/PropertyDetailsCard";
 import HotelActualFormWidget from "scenes/widgets/forms/HotelActualFormWidget";
 
 import HospitalActualFormWidget from "scenes/widgets/forms/HospitalActualFormWidget";
@@ -69,8 +66,6 @@ const ActualPage = () => {
             propertyId={propertyId}
             propertyName={filturedProperty[0].title}
             propertyCode={filturedProperty[0].propertyCode}
-            //propertyName={"Peerless Hospital"}
-            //propertyCode={"PHH"}
           />
         );
       // } else if (subsidiary === "Financial Product Distribution") {

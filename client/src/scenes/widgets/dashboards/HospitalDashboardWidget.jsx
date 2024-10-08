@@ -20,6 +20,7 @@ import { useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import allProperties from "../../../data/properties";
 import HospitalDashboardGraph from "./HospitalDashboardGraph";
+import HospitalAllDashboardGraph from "./HospitalAllDashboardGraph";
 
 //import StatBox from "../../components/StatBox";
 //import ProgressCircle from "../../components/ProgressCircle";
@@ -54,7 +55,21 @@ const HospitalDashboardWidget = ({ propertyId }) => {
   const handleYearChange = (event) => {
     setSelectedYear(event.target.value);
   };
-  
+
+  const makeDashboardMapping = ()=>{
+    if(filturedProps[0].subsidiary === "Hospital-All"){
+      return (
+        <HospitalAllDashboardGraph propertyId={propertyId} propertyCode = {filturedProps[0].propertyCode} propertyCodeOld = "PHH" selectedYear={selectedYear} >
+      </HospitalAllDashboardGraph>
+      )
+    }else{
+      return (
+        <HospitalDashboardGraph propertyId={propertyId} propertyCode = {filturedProps[0].propertyCode} propertyCodeOld = "PHH" selectedYear={selectedYear} >
+      </HospitalDashboardGraph>
+      )
+    }
+    
+  }
 
   return (
     <>
@@ -98,9 +113,10 @@ const HospitalDashboardWidget = ({ propertyId }) => {
             fontWeight="500"
             align="center"
           >
-            Peerless Hospital
+            {/* Peerless Hospital */}
+            {filturedProps[0].title}
           </Typography>
-          {propertyId}
+          {propertyId} & {filturedProps[0].title}
         </div>}
 
         <div>
@@ -118,11 +134,7 @@ const HospitalDashboardWidget = ({ propertyId }) => {
       {/* <WidgetWrapper > */}
       
       <Divider />
-      <HospitalDashboardGraph propertyId={propertyId} propertyCode = {filturedProps[0].propertyCode} propertyCodeOld = "PHH" selectedYear={selectedYear} >
-
-      </HospitalDashboardGraph>
-      
-
+      { makeDashboardMapping() }
       {/* </WidgetWrapper> */}
     </>
   );

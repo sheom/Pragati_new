@@ -147,7 +147,7 @@ const allProperties =[
     },
     {
       "_id":"648808cb4601d15e2d1680d9",
-      "title":"Peerless Hospital -  Barasat2",
+      "title":"Peerless Hospital - Barasat",
       "description":"This is description text for Peerless Hospital Barasat",
       "propertyType":"PHH",
       "propertyCode":"PHHB",

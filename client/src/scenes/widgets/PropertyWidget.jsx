@@ -104,7 +104,7 @@ const PropertyWidget = ({ propertyId }) => {
 
   const checkControls = () => {
     let isRating = true;
-    if (userRole === 0 && subsidiary !== "PGFI") {
+    if ( (userRole === 0 && subsidiary !== "PGFI" && filturedProperty[0].propertyCode !== "PHH-All") ){
       return (
         <>
           <Divider sx={{ margin: "1.25rem 0" }} />

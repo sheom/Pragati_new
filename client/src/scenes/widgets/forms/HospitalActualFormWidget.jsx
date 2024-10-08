@@ -120,8 +120,8 @@ const HospitalActualFormWidget = ({ propertyName, propertyCode, propertyId }) =>
     );
     const data = await response.json();
     if (data[0]) {
-      alert("Data is available");
-      alert("data[0].locked: " + data[0].locked);
+      //alert("Data is available");
+      //alert("data[0].locked: " + data[0].locked);
       if (data[0].locked) {
         setFormLocked(true);
       }
@@ -192,7 +192,6 @@ const HospitalActualFormWidget = ({ propertyName, propertyCode, propertyId }) =>
           color="#FF0000"
         >
           {propertyName}
-          {propertyCode}
           <Divider />
           Data is already submitted for this month of the Property
         </Typography>

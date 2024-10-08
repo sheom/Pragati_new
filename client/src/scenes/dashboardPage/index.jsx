@@ -3,20 +3,13 @@ import { useNavigate } from "react-router-dom";
 import { useParams } from "react-router-dom";
 import { Box, useMediaQuery, Divider, Button } from "@mui/material";
 import { useSelector } from "react-redux";
-import Navbar from "scenes/navbar";
 import FlexBetween from "components/FlexBetween";
-import PropertyDetailsCard from "components/common/PropertyDetailsCard";
-import UserWidget from "scenes/widgets/UserWidget";
 import allProperties from "data/properties";
-import DashboardWidget from "scenes/widgets/DashboardWidget";
 import HospitalDashboardWidget from "scenes/widgets/dashboards/HospitalDashboardWidget";
 import HotelDashboardWidget from "scenes/widgets/dashboards/HotelDashboardWidget";
 import PfpdlDashboardWidget from "scenes/widgets/dashboards/PfpdlDashboardWidget";
 import PfslDashboardWidget from "scenes/widgets/dashboards/PfslDashboardWidget";
 import PslDashboardWidget from "scenes/widgets/dashboards/PslDashboardWidget";
-//import MyPostWidget from "scenes/widgets/MyPostWidget";
-//import PostsWidget from "scenes/widgets/PostsWidget";
-//import FriendListWidget from "scenes/widgets/FriendListWidget";
 
 const DashboardPage = () => {
   const isNonMobileScreens = useMediaQuery("(min-width:1000px)");
@@ -52,7 +45,6 @@ const DashboardPage = () => {
           <Button variant="outlined" fullWidth onClick={() => navigate(`/property/show/${propertyId}`)} >
             Back
           </Button>
-          Selected subsidiary: {filturedProperty[0].subsidiary}
         </FlexBetween>
         </>
         )
@@ -86,11 +78,7 @@ const DashboardPage = () => {
           mt={isNonMobileScreens ? undefined : "1rem"}
           justifyContent="space-between"
         >
-          {filturedProperty[0].subsidiary}
-
           { checkMapping() }
-          
-
         </Box>
       </Box>
     </Box>

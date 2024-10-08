@@ -53,7 +53,12 @@ function App() {
             />
             <Route
               path="/subs_home"
-              element={isAuth ? <SubsHomePage /> : <Navigate to="/" />}
+              element={isAuth ? <SubsHomePage subs="Hotel" /> : <Navigate to="/" />}
+              //element={ <HomePage /> }
+            />
+            <Route
+              path="/subs_hos_home"
+              element={isAuth ? <SubsHomePage subs="Hospital" /> : <Navigate to="/" />}
               //element={ <HomePage /> }
             />
             <Route

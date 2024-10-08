@@ -35,8 +35,8 @@ const BudgetPage = () => {
   );
 
   const checkMapping = () => {
-    console.log("filturedProperty[0].subsidiary: " + filturedProperty[0].subsidiary);
-    console.log("subsidiary: " + subsidiary);
+    //console.log("filturedProperty[0].subsidiary: " + filturedProperty[0].subsidiary);
+    //console.log("subsidiary: " + subsidiary);
     if (
       filturedProperty[0].subsidiary === subsidiary ||
       filturedProperty[0].subsidiary.split("-")[0] === subsidiary
@@ -64,8 +64,7 @@ const BudgetPage = () => {
       } else if (subsidiary === "Hospital") {
         selectedWidget = (
           <HospitalTargetFormWidget
-            propertyName={"Peerless Hospital"}
-            //propertyCode={"PHH"}
+            propertyName={filturedProperty[0].title}
             propertyCode={filturedProperty[0].propertyCode}
             propertyId={propertyId}
           />

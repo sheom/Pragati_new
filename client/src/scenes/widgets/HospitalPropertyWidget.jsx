@@ -12,33 +12,15 @@ import { setPosts } from "state";
 import allProperties from "../../data/properties";
 
 const HospitalPropertyWidget = ({ subs }) => {
-  const dispatch = useDispatch();
-  const [image, setImage] = useState(null);
-  const [post, setPost] = useState("");
-  const { palette } = useTheme();
-  const { _id } = useSelector((state) => state.user);
-  const token = useSelector((state) => state.token);
-  const subsidiary = useSelector((state) => state.user.subsidiary);
   //
   const navigate = useNavigate();
   let filturedProps;
-  // if (subsidiary === "PGFI") {
-  //   //filturedProps = (allProperties.filter(property => property.subsidiary !== "Hotel" ));
-  //   filturedProps = [...allProperties];
-  // } else {
-  //   filturedProps = allProperties.filter(
-  //     (property) => property.subsidiary === subsidiary
-  //   );
-  // }
-  // filturedProps = allProperties.filter(
-  //   (property) => property.subsidiary === subs
-  // );
   filturedProps = allProperties.filter(
     (property) => property.subsidiary === "Hospital-All"//subs
   );
   let second_path
   if(subs=== "PGFI"){
-    second_path = `/subs_home`
+    second_path = `/subs_hos_home`
   }else{
     second_path = `/home`
   }
