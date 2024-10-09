@@ -116,7 +116,7 @@ const HospitalDashboardWidget = ({ propertyId }) => {
             {/* Peerless Hospital */}
             {filturedProps[0].title}
           </Typography>
-          {propertyId} & {filturedProps[0].title}
+          {/* {propertyId} & {filturedProps[0].title} */}
         </div>}
 
         <div>
@@ -125,7 +125,7 @@ const HospitalDashboardWidget = ({ propertyId }) => {
             style={{ width: isNonMobileScreens ? "200px" : "100px" }}
             onClick={() => navigate(`/property/show/${propertyId}`)}
           >
-            Back from Hospital Dashboard
+            Back
           </Button>
         </div>
 
