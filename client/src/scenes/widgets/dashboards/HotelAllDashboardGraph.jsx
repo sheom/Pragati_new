@@ -196,10 +196,10 @@ const HotelAllDashboardGraph = ({ propertyId, selectedYear }) => {
     //["PHK","PHD","PHH","PRPB", "PRM"]
     if (endYear === 2025){
       if (type === "actual") {
-        resArr = [76,63, 85, 47, 12];
-        //resArr = [83, 68, 96, 49, 21];
+        resArr = [77,65, 87, 42, 18];
       } else {
-        resArr = [87, 75, 90, 63, 31];
+        resArr = [88, 71, 90, 50, 27];
+        //resArr = [87, 75, 90, 63, 31];
       }
       //resArr = [];
     }
@@ -226,9 +226,10 @@ const HotelAllDashboardGraph = ({ propertyId, selectedYear }) => {
     //["PHK","PHD","PHH","PRPB", "PRM"]
     if (endYear === 2025) {
       if (type === "actual") {
-        resArr = [4772, 2459, 3492, 3643, 3562 ];
+        resArr = [4738, 2473, 3563, 3517, 3414 ];
       } else {
-        resArr = [5464, 2663, 3751, 4358, 4347];
+        resArr = [4913, 2622, 3720, 3772, 3937];
+        //resArr = [5464, 2663, 3751, 4358, 4347];
       }
     }else if(endYear === 2024) {
       if (type === "actual") {
@@ -701,7 +702,7 @@ const HotelAllDashboardGraph = ({ propertyId, selectedYear }) => {
                   <div style={{ width: isNonMobileScreens ? "32%" : "100%" }}>
                     <AllChartQuarterlyRange
                       title={`Average Customer Rating${
-                        endYear === 2025 ? " - Q1" : "- Q4"
+                        endYear === 2025 ? " - Q2" : "- Q4"
                       }`}
                       subTitle={`scale of 1 to 5`}
                       categories={["PHK", "PHD", "PHH", "PRPB", "PRM"]}
@@ -710,11 +711,11 @@ const HotelAllDashboardGraph = ({ propertyId, selectedYear }) => {
                         {
                           name: endYear === 2023 ?`FY 2023 Q4`:
                                 endYear === 2024 ?`FY 2024 Q4`
-                                : `FY 2025 Q1`,
+                                : `FY 2025 Q2`,
                           data:
                             endYear === 2023 ? []:
                             endYear === 2024 ? [4.2, 4.4, 4.5, 3.2, 4.2] 
-                            : [4.88, 4.68, 4.78, 3.55, 3.45],
+                            : [ 4.65, 4.48, 4.48, 3.50, 4.68 ],
                         },
                       ]}
                       series_q3={[

@@ -451,23 +451,28 @@ const HotelDashboardGraph = ({ propertyId, propertyCode, selectedYear }) => {
     let returnArray = [];
     if (endYear === 2025) {
       if (propCode === "PIK") {
-        returnArray = [4.9,	4.8,4.8,5]
+        returnArray = [4.8,	4.8, 4.5,	4.5 ]
+        //returnArray = [4.9,	4.8,4.8,5]
         //returnArray = [4.5, 4.6, 4.0, 3.8]
       }
       if (propCode === "PID") {
-        returnArray = [4.7,	4.8,	4.7,	4.5 ]
+        returnArray = [4.5, 4.8, 4.5, 4.1]
+        //returnArray = [4.7,	4.8,	4.7,	4.5 ]
         //returnArray = [4.5, 4.8, 4.4, 4.0]
       }
       if (propCode === "PIH") {
-        returnArray = [4.8,	4.9,	4.7,	4.7];
+        returnArray = [4.4, 4.5, 4.5, 4.5 ];
+        //returnArray = [4.8,	4.9,	4.7,	4.7];
         //returnArray = [4.5, 4.8, 4.5, 4.5];
       }
       if (propCode === "PRPB") {
-        returnArray = [4.5,	4.7,	5,	0]
+        returnArray = [4.7,	4.8, 4.5, 0 ];
+         //returnArray = [4.5,	4.7,	5,	0]
         //returnArray = [4, 4.8, 4.3, 0]
       }
       if (propCode === "PRM") {
-        returnArray = [4.5,	4.8,	4.5,	0]
+        returnArray = [ 4.4, 4.7, 4.6, 5 ];
+        //returnArray = [4.5,	4.8,	4.5,	0]
         //returnArray = [4, 4.6, 4.5, 3.8]
       }
     }else if(endYear === 2024) {
