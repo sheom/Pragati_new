@@ -33,9 +33,9 @@ const UserWidget = ({ userId, picturePath }) => {
     //   return us._id === userId
     // })
     // setUser(user[0]);
-    //https://sheom.in/
+    //https://pragati-backend.com/
      //const response = await fetch(`http://localhost:4000/users/${userId}`, {
-    const response = await fetch(`https://sheom.in/users/${userId}`, {
+    const response = await fetch(`https://pragati-backend.com/users/${userId}`, {
       method: "GET",
       headers: { Authorization: `Bearer ${token}` },
     });

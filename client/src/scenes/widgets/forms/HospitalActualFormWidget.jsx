@@ -108,9 +108,9 @@ const HospitalActualFormWidget = ({ propertyName, propertyCode, propertyId }) =>
 
   //
   const getBudget = async () => {
-    //"https://sheom.in/",
+    //"https://pragati-backend.com/",
     const response = await fetch(
-      `https://sheom.in/actual?propertyCode=${propertyCode}&actualYear=${new Date().getFullYear()}&actualMonth=${
+      `https://pragati-backend.com/actual?propertyCode=${propertyCode}&actualYear=${new Date().getFullYear()}&actualMonth=${
         monthsArray[currentMonth]
       } `,
       {
@@ -151,7 +151,7 @@ const HospitalActualFormWidget = ({ propertyName, propertyCode, propertyId }) =>
     console.log(data);
     ///
     const savedActualResponse = await fetch(
-      "https://sheom.in/actual/add",
+      "https://pragati-backend.com/actual/add",
       //"http://localhost:4000/actual/add",
       {
         method: "POST",

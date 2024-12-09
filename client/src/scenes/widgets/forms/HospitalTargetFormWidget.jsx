@@ -55,9 +55,9 @@ const HospitalTargetFormWidget = ({
   const fye = new Date().getFullYear()+1
   //
   const getBudget = async () => {
-    //"https://sheom.in/",
+    //"https://pragati-backend.com/",
     const response = await fetch(
-      `https://sheom.in/budget?propertyCode=${propertyCode}&budgetYear=${fye }`,
+      `https://pragati-backend.com/budget?propertyCode=${propertyCode}&budgetYear=${fye }`,
       {
         // const response = await fetch(`http://localhost:4000/budget?propertyCode=${propertyCode}&budgetYear=${new Date().getFullYear() + 1}`, {
         method: "GET",

@@ -67,7 +67,7 @@ const UpdatePasswordWidget = ({ propertyName, propertyCode, propertyId }) => {
     ///
 
     const updatePasswordResponse = await fetch(
-      "https://sheom.in/auth/change",
+      "https://pragati-backend.com/auth/change",
       //"http://localhost:4000/auth/change",
       {
         method: "POST",

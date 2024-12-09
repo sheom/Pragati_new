@@ -37,14 +37,14 @@ const HospitalAllDashboardGraph = ({ propertyId, propertyCode, selectedYear }) =
     console.log("Loading Data from Server, please wait");
     let misYear = Number(selectedYear.split("-")[1]);
     const response = await fetch(
-      `https://sheom.in/mis/new?propertyCode=PHH&year=${misYear}`,
+      `https://pragati-backend.com/mis/new?propertyCode=PHH&year=${misYear}`,
       {
         method: "GET",
         headers: { Authorization: `Bearer ${token}` },
       }
     );
     const barasatResponse = await fetch(
-      `https://sheom.in/mis/new?propertyCode=PHHB&year=${misYear}`,
+      `https://pragati-backend.com/mis/new?propertyCode=PHHB&year=${misYear}`,
       {
         method: "GET",
         headers: { Authorization: `Bearer ${token}` },

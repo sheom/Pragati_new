@@ -48,13 +48,13 @@ const HotelAllDashboardGraph = ({ propertyId, selectedYear }) => {
   const getMISData = async () => {
     console.log("Loading Data from Server, please wait");
     let propertyCode = "PHL-All"
-    //"https://sheom.in/",
+    //"https://pragati-backend.com/",
     //http://localhost:4000/mis?propertyCode=PHL&year=2024
     //alert("selectedYear: "+selectedYear)
     let misYear = Number(selectedYear.split("-")[1]);
     //alert("misYear: "+misYear)
     let responseURL ="http://localhost:4000/mis/cons?propertyCode=PHL&year=2025"
-    //responseURL = `https://sheom.in/mis/cons?propertyCode=${propertyCode}&year=${misYear}`
+    //responseURL = `https://pragati-backend.com/mis/cons?propertyCode=${propertyCode}&year=${misYear}`
     
     const response = await fetch(responseURL,
       {

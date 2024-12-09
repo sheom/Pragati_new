@@ -294,7 +294,7 @@ function HospitalQuarterForm({ propertyName, propertyId, propertyCode }) {
       };
       ///
       const savedBudgetResponse = await fetch(
-        "https://sheom.in/budget/add",
+        "https://pragati-backend.com/budget/add",
         //"http://localhost:4000/budget/add",
         {
           method: "POST",
