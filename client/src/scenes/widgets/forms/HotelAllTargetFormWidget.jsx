@@ -66,9 +66,9 @@ const HotelAllTargetFormWidget = ({ propertyName, propertyCode, propertyId }) =>
   const fye = new Date().getFullYear()+1
   //
   const getBudget = async () => {
-    //"https://pragati-backend.com/",
+    //"http://localhost:4000/",
     const response = await fetch(
-      `https://pragati-backend.com/budget?propertyCode=${propertyCode}&budgetYear=${fye}`,
+      `http://localhost:4000/budget?propertyCode=${propertyCode}&budgetYear=${fye}`,
       {
         // const response = await fetch(`http://localhost:4000/budget?propertyCode=${propertyCode}&budgetYear=${new Date().getFullYear() + 1}`, {
         method: "GET",

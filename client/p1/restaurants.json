@@ -4,7 +4,7 @@
     "title": "Restaurants",
     "blog_title": "What's <span>New?<\/span>",
     "visit_website": {
-        "url": "https:\/\/peerlesshotels.com\/the-peerless-inn.php",
+        "url": "http:\/\/peerlesshotels.com\/the-peerless-inn.php",
         "link_text": ""
     },
     "metatags": {
@@ -14,23 +14,23 @@
         "og_description": "Indulge in a culinary journey like no other at Peerless Group Restaurants. From delectable dishes to inviting ambience, we offer an exceptional dining experience that delights all senses. Explore our diverse menu and create cherished memories.",
         "og_determiner": "Peerless One",
         "og_image": [
-            "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-09\/restaurant.jpg"
+            "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-09\/restaurant.jpg"
         ],
         "og_image_alt": "Restaurants",
         "og_image_height": "630",
         "og_image_secure_url": [
-            "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-09\/restaurant.jpg"
+            "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-09\/restaurant.jpg"
         ],
         "og_image_type": "jpeg",
         "og_image_url": [
-            "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-09\/restaurant.jpg"
+            "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-09\/restaurant.jpg"
         ],
         "og_image_width": "1200",
         "og_site_name": "Peerless One",
         "og_title": "Culinary Excellence at Peerless Group Restaurants: Savor Unforgettable Flavors",
-        "og_url": "https:\/\/cms.peerlessone.in\/restaurants",
+        "og_url": "http:\/\/cms.peerlessone.in\/restaurants",
         "title": "Culinary Excellence at Peerless Group Restaurants: Savor Unforgettable Flavors",
-        "canonical_url": "https:\/\/cms.peerlessone.in\/restaurants",
+        "canonical_url": "http:\/\/cms.peerlessone.in\/restaurants",
         "robots": "index, follow"
     },
     "banner": {
@@ -51,7 +51,7 @@
                 "title": "",
                 "width": "1820",
                 "height": "770",
-                "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-06\/restaurant-banner_0.jpg"
+                "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-06\/restaurant-banner_0.jpg"
             }
         ],
         "banner_icon": [
@@ -61,7 +61,7 @@
                 "title": "",
                 "width": "38",
                 "height": "38",
-                "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-06\/restaurants.svg"
+                "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-06\/restaurants.svg"
             }
         ],
         "banner_logo": [
@@ -71,7 +71,7 @@
                 "title": "",
                 "width": "136",
                 "height": "62",
-                "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2024-01\/0_Peerless_Hotels_Resorts_0.png"
+                "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2024-01\/0_Peerless_Hotels_Resorts_0.png"
             }
         ]
     },
@@ -101,7 +101,7 @@
                 "title": "",
                 "width": "590",
                 "height": "661",
-                "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/restaurant_0.png"
+                "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/restaurant_0.png"
             }
         ],
         "banner_logo": [
@@ -139,7 +139,7 @@
                         "title": "",
                         "width": "14",
                         "height": "12",
-                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-06\/button-arrow_6.svg"
+                        "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-06\/button-arrow_6.svg"
                     }
                 ],
                 "featured_image": [
@@ -149,7 +149,7 @@
                         "title": "",
                         "width": "494",
                         "height": "300",
-                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2024-03\/peerless-restauran_Aaheli.jpg"
+                        "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2024-03\/peerless-restauran_Aaheli.jpg"
                     }
                 ],
                 "post_icon": [
@@ -159,12 +159,12 @@
                         "title": "",
                         "width": "44",
                         "height": "44",
-                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-06\/navigator_4.svg"
+                        "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-06\/navigator_4.svg"
                     }
                 ],
                 "post_url": [
                     {
-                        "url": "https:\/\/peerlesshotels.com\/peerless-kolkata.php",
+                        "url": "http:\/\/peerlesshotels.com\/peerless-kolkata.php",
                         "link_text": "Know More"
                     }
                 ],
@@ -199,7 +199,7 @@
                         "title": "",
                         "width": "14",
                         "height": "12",
-                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-06\/button-arrow_7.svg"
+                        "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-06\/button-arrow_7.svg"
                     }
                 ],
                 "featured_image": [
@@ -209,7 +209,7 @@
                         "title": "",
                         "width": "494",
                         "height": "300",
-                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/AAHELI-%20AXIS-banner_0.jpg"
+                        "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/AAHELI-%20AXIS-banner_0.jpg"
                     }
                 ],
                 "post_icon": [
@@ -219,12 +219,12 @@
                         "title": "",
                         "width": "44",
                         "height": "44",
-                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-06\/navigator_6.svg"
+                        "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-06\/navigator_6.svg"
                     }
                 ],
                 "post_url": [
                     {
-                        "url": "https:\/\/peerlesshotels.com\/axis-mall.php",
+                        "url": "http:\/\/peerlesshotels.com\/axis-mall.php",
                         "link_text": "Know More"
                     }
                 ],
@@ -259,7 +259,7 @@
                         "title": "",
                         "width": "14",
                         "height": "12",
-                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/button-arrow_4.svg"
+                        "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/button-arrow_4.svg"
                     }
                 ],
                 "featured_image": [
@@ -269,7 +269,7 @@
                         "title": "",
                         "width": "494",
                         "height": "300",
-                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/AAHELI-SBR-banner_0.jpg"
+                        "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/AAHELI-SBR-banner_0.jpg"
                     }
                 ],
                 "post_icon": [
@@ -279,12 +279,12 @@
                         "title": "",
                         "width": "44",
                         "height": "44",
-                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/navigator_0.svg"
+                        "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/navigator_0.svg"
                     }
                 ],
                 "post_url": [
                     {
-                        "url": "https:\/\/peerlesshotels.com\/sarat-bose-road.php",
+                        "url": "http:\/\/peerlesshotels.com\/sarat-bose-road.php",
                         "link_text": "Know More"
                     }
                 ],
@@ -321,7 +321,7 @@
                         "title": "",
                         "width": "14",
                         "height": "12",
-                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-06\/button-arrow_5.svg"
+                        "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-06\/button-arrow_5.svg"
                     }
                 ],
                 "featured_image": [
@@ -331,7 +331,7 @@
                         "title": "",
                         "width": "494",
                         "height": "300",
-                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-06\/peerless-restaurant-tab-block-1.jpg"
+                        "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-06\/peerless-restaurant-tab-block-1.jpg"
                     }
                 ],
                 "post_icon": [
@@ -341,12 +341,12 @@
                         "title": "",
                         "width": "44",
                         "height": "44",
-                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-06\/navigator_5.svg"
+                        "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-06\/navigator_5.svg"
                     }
                 ],
                 "post_url": [
                     {
-                        "url": "https:\/\/peerlesshotels.com\/peerless-inn-hyderabad-dining.php",
+                        "url": "http:\/\/peerlesshotels.com\/peerless-inn-hyderabad-dining.php",
                         "link_text": "Know More"
                     }
                 ],
@@ -381,7 +381,7 @@
                         "title": "",
                         "width": "14",
                         "height": "12",
-                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-06\/button-arrow_8.svg"
+                        "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-06\/button-arrow_8.svg"
                     }
                 ],
                 "featured_image": [
@@ -391,7 +391,7 @@
                         "title": "",
                         "width": "495",
                         "height": "300",
-                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2024-04\/CarbonsDelight.jpg"
+                        "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2024-04\/CarbonsDelight.jpg"
                     }
                 ],
                 "post_icon": [
@@ -401,12 +401,12 @@
                         "title": "",
                         "width": "44",
                         "height": "44",
-                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-06\/navigator_7.svg"
+                        "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-06\/navigator_7.svg"
                     }
                 ],
                 "post_url": [
                     {
-                        "url": "https:\/\/peerlesshotels.com\/peerless-inn-port_blair-dining.php",
+                        "url": "http:\/\/peerlesshotels.com\/peerless-inn-port_blair-dining.php",
                         "link_text": "Know More"
                     }
                 ],
@@ -441,7 +441,7 @@
                         "title": "",
                         "width": "14",
                         "height": "12",
-                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-06\/button-arrow_10.svg"
+                        "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-06\/button-arrow_10.svg"
                     }
                 ],
                 "featured_image": [
@@ -451,7 +451,7 @@
                         "title": "",
                         "width": "494",
                         "height": "300",
-                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-06\/peerless-restaurant-tab-block-3_0.jpg"
+                        "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-06\/peerless-restaurant-tab-block-3_0.jpg"
                     }
                 ],
                 "post_icon": [
@@ -461,12 +461,12 @@
                         "title": "",
                         "width": "44",
                         "height": "44",
-                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-06\/navigator_9.svg"
+                        "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-06\/navigator_9.svg"
                     }
                 ],
                 "post_url": [
                     {
-                        "url": "https:\/\/peerlesshotels.com\/peerless-inn-durgapur-dining.php",
+                        "url": "http:\/\/peerlesshotels.com\/peerless-inn-durgapur-dining.php",
                         "link_text": "Know More"
                     }
                 ],
@@ -501,7 +501,7 @@
                         "title": "",
                         "width": "14",
                         "height": "12",
-                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/button-arrow_0.svg"
+                        "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/button-arrow_0.svg"
                     }
                 ],
                 "featured_image": [
@@ -511,7 +511,7 @@
                         "title": "",
                         "width": "494",
                         "height": "300",
-                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2024-04\/Oceanic.jpg"
+                        "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2024-04\/Oceanic.jpg"
                     }
                 ],
                 "post_icon": [
@@ -521,12 +521,12 @@
                         "title": "",
                         "width": "44",
                         "height": "44",
-                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/navigator.svg"
+                        "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/navigator.svg"
                     }
                 ],
                 "post_url": [
                     {
-                        "url": "https:\/\/peerlesshotels.com\/peerless-inn-kolkata-dining.php",
+                        "url": "http:\/\/peerlesshotels.com\/peerless-inn-kolkata-dining.php",
                         "link_text": "Know More"
                     }
                 ],
@@ -561,7 +561,7 @@
                         "title": "",
                         "width": "14",
                         "height": "12",
-                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/button-arrow_3.svg"
+                        "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/button-arrow_3.svg"
                     }
                 ],
                 "featured_image": [
@@ -571,7 +571,7 @@
                         "title": "",
                         "width": "494",
                         "height": "300",
-                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/madol_0.jpg"
+                        "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/madol_0.jpg"
                     }
                 ],
                 "post_icon": [
@@ -581,12 +581,12 @@
                         "title": "",
                         "width": "44",
                         "height": "44",
-                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-08\/navigator_0.svg"
+                        "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-08\/navigator_0.svg"
                     }
                 ],
                 "post_url": [
                     {
-                        "url": "https:\/\/peerlesshotels.com\/peerless-inn-mukutmanipur-dining.php",
+                        "url": "http:\/\/peerlesshotels.com\/peerless-inn-mukutmanipur-dining.php",
                         "link_text": "Know More"
                     }
                 ],
@@ -623,7 +623,7 @@
                         "title": "",
                         "width": "14",
                         "height": "12",
-                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-06\/button-arrow_6.svg"
+                        "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-06\/button-arrow_6.svg"
                     }
                 ],
                 "featured_image": [
@@ -633,7 +633,7 @@
                         "title": "",
                         "width": "494",
                         "height": "300",
-                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/sea-sips_0.jpg"
+                        "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/sea-sips_0.jpg"
                     }
                 ],
                 "post_icon": [
@@ -643,12 +643,12 @@
                         "title": "",
                         "width": "44",
                         "height": "44",
-                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-06\/navigator_4.svg"
+                        "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-06\/navigator_4.svg"
                     }
                 ],
                 "post_url": [
                     {
-                        "url": "https:\/\/peerlesshotels.com\/peerless-inn-port_blair-dining.php",
+                        "url": "http:\/\/peerlesshotels.com\/peerless-inn-port_blair-dining.php",
                         "link_text": "Know More"
                     }
                 ],
@@ -683,7 +683,7 @@
                         "title": "",
                         "width": "14",
                         "height": "12",
-                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-06\/button-arrow_6.svg"
+                        "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-06\/button-arrow_6.svg"
                     }
                 ],
                 "featured_image": [
@@ -693,7 +693,7 @@
                         "title": "",
                         "width": "494",
                         "height": "300",
-                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2024-03\/peerless-restaurant-tab-block-3.jpg"
+                        "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2024-03\/peerless-restaurant-tab-block-3.jpg"
                     }
                 ],
                 "post_icon": [
@@ -703,12 +703,12 @@
                         "title": "",
                         "width": "44",
                         "height": "44",
-                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-06\/navigator_4.svg"
+                        "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-06\/navigator_4.svg"
                     }
                 ],
                 "post_url": [
                     {
-                        "url": "https:\/\/peerlesshotels.com\/peerless-inn-kolkata-dining.php",
+                        "url": "http:\/\/peerlesshotels.com\/peerless-inn-kolkata-dining.php",
                         "link_text": "Know More"
                     }
                 ],
@@ -743,7 +743,7 @@
                         "title": "",
                         "width": "14",
                         "height": "12",
-                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-06\/button-arrow_6.svg"
+                        "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-06\/button-arrow_6.svg"
                     }
                 ],
                 "featured_image": [
@@ -753,7 +753,7 @@
                         "title": "",
                         "width": "494",
                         "height": "300",
-                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/tea-lounge_0.jpg"
+                        "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/tea-lounge_0.jpg"
                     }
                 ],
                 "post_icon": [
@@ -763,12 +763,12 @@
                         "title": "",
                         "width": "44",
                         "height": "44",
-                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-06\/navigator_4.svg"
+                        "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-06\/navigator_4.svg"
                     }
                 ],
                 "post_url": [
                     {
-                        "url": "https:\/\/peerlesshotels.com\/peerless-inn-kolkata-dining.php",
+                        "url": "http:\/\/peerlesshotels.com\/peerless-inn-kolkata-dining.php",
                         "link_text": "Know More"
                     }
                 ],

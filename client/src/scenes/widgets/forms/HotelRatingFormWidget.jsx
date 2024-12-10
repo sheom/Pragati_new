@@ -107,7 +107,7 @@ const HotelRatingFormWidget = ({ propertyName, propertyCode, propertyId }) => {
   const getRating = async () => {
     //"http://localhost:4000/",
     const response = await fetch(
-      `https://pragati-backend.com/rating?propertyCode=${propertyCode}&ratingYear=${ratingYear}&ratingQ=${ratingQ}&ratingMonth=${monthsArray[currentMonth]} `,
+      `http://localhost:4000/rating?propertyCode=${propertyCode}&ratingYear=${ratingYear}&ratingQ=${ratingQ}&ratingMonth=${monthsArray[currentMonth]} `,
       {
         method: "GET",
         headers: { Authorization: `Bearer ${token}` },
@@ -166,7 +166,7 @@ const HotelRatingFormWidget = ({ propertyName, propertyCode, propertyId }) => {
     console.log(data);
     ///
     const savedRatingResponse = await fetch(
-      "https://pragati-backend.com/rating/add",
+      "http://localhost:4000/rating/add",
       //"http://localhost:4000/rating/add",
       {
         method: "POST",

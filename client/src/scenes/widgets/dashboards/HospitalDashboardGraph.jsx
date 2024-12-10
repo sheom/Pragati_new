@@ -38,11 +38,11 @@ const HospitalDashboardGraph = ({ propertyId, propertyCode, selectedYear }) => {
   const getMISData = async () => {
     console.log("Loading Data from Server, please wait");
     //let propertyCode = "PIK"
-    //"https://pragati-backend.com/",
+    //"http://localhost:4000/",
     //http://localhost:4000/mis?propertyCode=PHL&year=2024
     let misYear = Number(selectedYear.split("-")[1]);
     const response = await fetch(
-      `https://pragati-backend.com/mis/new?propertyCode=${propertyCode}&year=${misYear}`,
+      `http://localhost:4000/mis/new?propertyCode=${propertyCode}&year=${misYear}`,
       {
         //  const response = await fetch(`http://localhost:4000/mis?propertyCode=${propertyCode}&year=${ misYear }`, {
         // const response = await fetch(

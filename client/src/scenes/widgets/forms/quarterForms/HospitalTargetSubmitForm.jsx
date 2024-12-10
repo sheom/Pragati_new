@@ -86,7 +86,7 @@ function HospitalTargetSubmitForm({ propertyName, propertyCode, propertyId }) {
     console.log(data);
     ///
     const savedBudgetResponse = await fetch(
-      "https://pragati-backend.com/budget/add",
+      "http://localhost:4000/budget/add",
       //"http://localhost:4000/budget/add",
       {
         method: "POST",

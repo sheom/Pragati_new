@@ -63,7 +63,7 @@ const Form = () => {
     }
     //formData.append("picturePath", values.picture.name);
     const savedUserResponse = await fetch(
-      "https://pragati-backend.com/auth/register",
+      "http://localhost:4000/auth/register",
       //"http://localhost:4000/auth/register",
       {
         method: "POST",
@@ -82,11 +82,11 @@ const Form = () => {
 
   const login = async (values, onSubmitProps) => {
     //values.email 
-    //https://pragati-backend.com/
-    //https://pragati-backend.com/
+    //http://localhost:4000/
+    //http://localhost:4000/
     //const loggedInResponse = await fetch("http://localhost:4000/auth/login", {
     //
-    const loggedInResponse = await fetch("https://pragati-backend.com/auth/login", {
+    const loggedInResponse = await fetch("http://localhost:4000/auth/login", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(values),

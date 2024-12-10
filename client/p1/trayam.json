@@ -4,7 +4,7 @@
     "title": "Trayam",
     "blog_title": "What's <span>New?<\/span>",
     "visit_website": {
-        "url": "https:\/\/bengalpeerless.com\/",
+        "url": "http:\/\/bengalpeerless.com\/",
         "link_text": ""
     },
     
@@ -15,23 +15,23 @@
         "og_description": "Explore Peerless Group's commitment to quality housing solutions. From modern residences to sustainable communities, we shape environments where families thrive. Discover how we're crafting spaces that truly feel like home.",
         "og_determiner": "Peerless One",
         "og_image": [
-            "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-09\/housing.jpg"
+            "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-09\/housing.jpg"
         ],
         "og_image_alt": "Housing",
         "og_image_height": "630",
         "og_image_secure_url": [
-            "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-09\/housing.jpg"
+            "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-09\/housing.jpg"
         ],
         "og_image_type": "jpeg",
         "og_image_url": [
-            "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-09\/housing.jpg"
+            "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-09\/housing.jpg"
         ],
         "og_image_width": "1200",
         "og_site_name": "Peerless One",
         "og_title": "Peerless Group Housing: Building Dreams, Creating Communities",
-        "og_url": "https:\/\/cms.peerlessone.in\/housing",
+        "og_url": "http:\/\/cms.peerlessone.in\/housing",
         "title": "Peerless Group Housing: Building Dreams, Creating Communities",
-        "canonical_url": "https:\/\/cms.peerlessone.in\/housing",
+        "canonical_url": "http:\/\/cms.peerlessone.in\/housing",
         "robots": "index, follow"
     },
     "banner": {
@@ -52,7 +52,7 @@
                 "title": "",
                 "width": "1820",
                 "height": "770",
-                "image_url_old": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/tryam_banner.jpg",
+                "image_url_old": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/tryam_banner.jpg",
                 "image_url": "/imgs/trayam/banner_trayam.jpg"
             }
         ],
@@ -63,7 +63,7 @@
                 "title": "",
                 "width": "39",
                 "height": "38",
-                "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/trayam.svg"
+                "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/trayam.svg"
             }
         ],
         "banner_logo": [
@@ -74,7 +74,7 @@
                 "width": "293",
                 "height": "71",
                 "image_url":"",
-                "image_url_none": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/peerless-housing-logo.jpg"
+                "image_url_none": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/peerless-housing-logo.jpg"
             }
         ]
     },
@@ -104,7 +104,7 @@
                 "title": "",
                 "width": "557",
                 "height": "661",
-                "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-08\/trayam.png"
+                "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-08\/trayam.png"
             }
         ],
         "banner_logo": [
@@ -253,7 +253,7 @@
                     },
                     {
                         "title": "Location",
-                        "link": "https://maps.app.goo.gl/xpN3jFeWpZTdRW7L8",
+                        "link": "http://maps.app.goo.gl/xpN3jFeWpZTdRW7L8",
                         "sub_title": [
                             {
                                 "value": "Location"
@@ -504,7 +504,7 @@
                                 "title": "",
                                 "width": "1550",
                                 "height": "800",
-                                "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-08\/Gallery%20pic1%20-%20Practise%20session.jpg"
+                                "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-08\/Gallery%20pic1%20-%20Practise%20session.jpg"
                             }
                         ]
                     },
@@ -517,7 +517,7 @@
                                 "title": "",
                                 "width": "1550",
                                 "height": "801",
-                                "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-08\/Gallery%20pic%202%20-%20Practise%20Session.jpg"
+                                "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-08\/Gallery%20pic%202%20-%20Practise%20Session.jpg"
                             }
                         ]
                     },
@@ -530,7 +530,7 @@
                                 "title": "",
                                 "width": "1550",
                                 "height": "800",
-                                "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-08\/Gallery%20Pic3%20-%20practise%20session.jpg"
+                                "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-08\/Gallery%20Pic3%20-%20practise%20session.jpg"
                             }
                         ]
                     },
@@ -543,7 +543,7 @@
                                 "title": "",
                                 "width": "1550",
                                 "height": "800",
-                                "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-08\/Gallery%20pic%204%20practise%20warm%20up%20sessions.jpg"
+                                "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-08\/Gallery%20pic%204%20practise%20warm%20up%20sessions.jpg"
                             }
                         ]
                     },
@@ -556,7 +556,7 @@
                                 "title": "",
                                 "width": "800",
                                 "height": "445",
-                                "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-08\/3656b1e3-e685-4678-8d55-f7cf54258b18.jpeg"
+                                "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-08\/3656b1e3-e685-4678-8d55-f7cf54258b18.jpeg"
                             }
                         ]
                     },
@@ -569,7 +569,7 @@
                                 "title": "",
                                 "width": "730",
                                 "height": "462",
-                                "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-08\/8595b8f2-bbe7-4c21-aa54-05bd23f48210.jpeg"
+                                "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-08\/8595b8f2-bbe7-4c21-aa54-05bd23f48210.jpeg"
                             }
                         ]
                     },
@@ -582,7 +582,7 @@
                                 "title": "",
                                 "width": "1200",
                                 "height": "675",
-                                "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-08\/2fed4038-2ad3-4067-8399-98ef27b93ef8.jpeg"
+                                "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-08\/2fed4038-2ad3-4067-8399-98ef27b93ef8.jpeg"
                             }
                         ]
                     }

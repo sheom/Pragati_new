@@ -4,7 +4,7 @@
     "title": "Investments",
     "blog_title": "What's <span>New?<\/span>",
     "visit_website": {
-        "url": "https:\/\/peerlesssec.co.in\/",
+        "url": "http:\/\/peerlesssec.co.in\/",
         "link_text": ""
     },
     "metatags": {
@@ -14,23 +14,23 @@
         "og_description": "Unlock your financial potential with Peerless Group's strategic investment offerings. From diverse portfolios to expert guidance, we pave the way for your financial success. Explore our investment solutions and embark on a journey of prosperity.",
         "og_determiner": "Peerless One",
         "og_image": [
-            "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-09\/investments.jpg"
+            "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-09\/investments.jpg"
         ],
         "og_image_alt": "Investments",
         "og_image_height": "630",
         "og_image_secure_url": [
-            "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-09\/investments.jpg"
+            "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-09\/investments.jpg"
         ],
         "og_image_type": "jpeg",
         "og_image_url": [
-            "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-09\/investments.jpg"
+            "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-09\/investments.jpg"
         ],
         "og_image_width": "1200",
         "og_site_name": "Peerless One",
         "og_title": "Empowering Growth through Peerless Group Investment Opportunities",
-        "og_url": "https:\/\/cms.peerlessone.in\/investments",
+        "og_url": "http:\/\/cms.peerlessone.in\/investments",
         "title": "Empowering Growth through Peerless Group Investment Opportunities",
-        "canonical_url": "https:\/\/cms.peerlessone.in\/investments",
+        "canonical_url": "http:\/\/cms.peerlessone.in\/investments",
         "robots": "index, follow"
     },
     "banner": {
@@ -51,7 +51,7 @@
                 "title": "",
                 "width": "1820",
                 "height": "770",
-                "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-08\/investments_banner.jpg"
+                "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-08\/investments_banner.jpg"
             }
         ],
         "banner_icon": [
@@ -61,7 +61,7 @@
                 "title": "",
                 "width": "38",
                 "height": "38",
-                "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/investments.svg"
+                "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/investments.svg"
             }
         ],
         "banner_logo": [
@@ -71,7 +71,7 @@
                 "title": "",
                 "width": "314",
                 "height": "104",
-                "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/peerless-securities-logo.jpg"
+                "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/peerless-securities-logo.jpg"
             }
         ]
     },
@@ -101,7 +101,7 @@
                 "title": "",
                 "width": "728",
                 "height": "244",
-                "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/rate-us-popup-bg_0.png"
+                "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/rate-us-popup-bg_0.png"
             }
         ],
         "banner_logo": [
@@ -125,7 +125,7 @@
                                 "title": "",
                                 "width": "43",
                                 "height": "38",
-                                "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/service-icon.svg"
+                                "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/service-icon.svg"
                             }
                         ]
                     }
@@ -134,7 +134,7 @@
                     {
                         "service_name": "Equity & Derivative Broking",
                         "service_link": {
-                            "url": "https:\/\/peerlesssec.co.in\/Product\/Equity",
+                            "url": "http:\/\/peerlesssec.co.in\/Product\/Equity",
                             "link_text": ""
                         },
                         "service_icon": [
@@ -144,7 +144,7 @@
                                 "title": "",
                                 "width": "64",
                                 "height": "64",
-                                "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/equity-icon.png"
+                                "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/equity-icon.png"
                             }
                         ],
                         "link_icon": [
@@ -158,7 +158,7 @@
                                         "title": "",
                                         "width": "14",
                                         "height": "12",
-                                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/button-arrow.svg"
+                                        "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/button-arrow.svg"
                                     }
                                 ]
                             }
@@ -167,7 +167,7 @@
                     {
                         "service_name": "Currency & Commodity Trading",
                         "service_link": {
-                            "url": "https:\/\/peerlesssec.co.in\/Product\/Currency",
+                            "url": "http:\/\/peerlesssec.co.in\/Product\/Currency",
                             "link_text": ""
                         },
                         "service_icon": [
@@ -177,7 +177,7 @@
                                 "title": "",
                                 "width": "64",
                                 "height": "64",
-                                "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/debt-icon.png"
+                                "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/debt-icon.png"
                             }
                         ],
                         "link_icon": [
@@ -191,7 +191,7 @@
                                         "title": "",
                                         "width": "14",
                                         "height": "12",
-                                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/button-arrow.svg"
+                                        "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/button-arrow.svg"
                                     }
                                 ]
                             }
@@ -200,7 +200,7 @@
                     {
                         "service_name": "Depository Services",
                         "service_link": {
-                            "url": "https:\/\/peerlesssec.co.in\/Product\/Depository",
+                            "url": "http:\/\/peerlesssec.co.in\/Product\/Depository",
                             "link_text": ""
                         },
                         "service_icon": [
@@ -210,7 +210,7 @@
                                 "title": "",
                                 "width": "64",
                                 "height": "64",
-                                "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/depository-icon.png"
+                                "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/depository-icon.png"
                             }
                         ],
                         "link_icon": [
@@ -224,7 +224,7 @@
                                         "title": "",
                                         "width": "14",
                                         "height": "12",
-                                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/button-arrow.svg"
+                                        "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/button-arrow.svg"
                                     }
                                 ]
                             }
@@ -233,7 +233,7 @@
                     {
                         "service_name": "Financial Products & Mutual Fund Distribution",
                         "service_link": {
-                            "url": "https:\/\/peerlesssec.co.in\/Product\/FPD",
+                            "url": "http:\/\/peerlesssec.co.in\/Product\/FPD",
                             "link_text": ""
                         },
                         "service_icon": [
@@ -243,7 +243,7 @@
                                 "title": "",
                                 "width": "64",
                                 "height": "64",
-                                "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/financial-icon.png"
+                                "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/financial-icon.png"
                             }
                         ],
                         "link_icon": [
@@ -257,7 +257,7 @@
                                         "title": "",
                                         "width": "14",
                                         "height": "12",
-                                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/button-arrow.svg"
+                                        "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/button-arrow.svg"
                                     }
                                 ]
                             }
@@ -266,7 +266,7 @@
                     {
                         "service_name": "Central Dealing Desk",
                         "service_link": {
-                            "url": "https:\/\/peerlesssec.co.in\/Product\/CSD",
+                            "url": "http:\/\/peerlesssec.co.in\/Product\/CSD",
                             "link_text": ""
                         },
                         "service_icon": [
@@ -276,7 +276,7 @@
                                 "title": "",
                                 "width": "64",
                                 "height": "64",
-                                "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/research-icon.png"
+                                "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/research-icon.png"
                             }
                         ],
                         "link_icon": [
@@ -290,7 +290,7 @@
                                         "title": "",
                                         "width": "14",
                                         "height": "12",
-                                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/button-arrow.svg"
+                                        "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/button-arrow.svg"
                                     }
                                 ]
                             }
@@ -299,7 +299,7 @@
                     {
                         "service_name": "Online Mutual Fund",
                         "service_link": {
-                            "url": "https:\/\/peerlesssec.investwell.app\/app\/#\/login",
+                            "url": "http:\/\/peerlesssec.investwell.app\/app\/#\/login",
                             "link_text": ""
                         },
                         "service_icon": [
@@ -309,7 +309,7 @@
                                 "title": "",
                                 "width": "64",
                                 "height": "64",
-                                "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/corporate-icon.png"
+                                "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/corporate-icon.png"
                             }
                         ],
                         "link_icon": [
@@ -323,7 +323,7 @@
                                         "title": "",
                                         "width": "14",
                                         "height": "12",
-                                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/button-arrow.svg"
+                                        "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/button-arrow.svg"
                                     }
                                 ]
                             }
@@ -332,7 +332,7 @@
                     {
                         "service_name": "Online Account Opening",
                         "service_link": {
-                            "url": "https:\/\/pslapp.peerlesssec.com\/ekyc",
+                            "url": "http:\/\/pslapp.peerlesssec.com\/ekyc",
                             "link_text": "Open an account"
                         },
                         "service_icon": [
@@ -342,7 +342,7 @@
                                 "title": "",
                                 "width": "64",
                                 "height": "64",
-                                "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2024-04\/invest-open-icon_0.png"
+                                "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2024-04\/invest-open-icon_0.png"
                             }
                         ],
                         "link_icon": [
@@ -356,7 +356,7 @@
                                         "title": "",
                                         "width": "14",
                                         "height": "12",
-                                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/button-arrow.svg"
+                                        "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/button-arrow.svg"
                                     }
                                 ]
                             }
@@ -365,7 +365,7 @@
                     {
                         "service_name": "Gen Z Mobile Trading App PSMART",
                         "service_link": {
-                            "url": "https:\/\/peerlesssec.co.in\/PSLOnline\/PSMART",
+                            "url": "http:\/\/peerlesssec.co.in\/PSLOnline\/PSMART",
                             "link_text": ""
                         },
                         "service_icon": [
@@ -375,7 +375,7 @@
                                 "title": "",
                                 "width": "50",
                                 "height": "64",
-                                "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2024-05\/psmart-app-icn.png"
+                                "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2024-05\/psmart-app-icn.png"
                             }
                         ],
                         "link_icon": [
@@ -389,7 +389,7 @@
                                         "title": "",
                                         "width": "14",
                                         "height": "12",
-                                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/button-arrow.svg"
+                                        "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/button-arrow.svg"
                                     }
                                 ]
                             }

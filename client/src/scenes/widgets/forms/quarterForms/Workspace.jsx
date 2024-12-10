@@ -44,7 +44,7 @@ function Workspace() {
           <Field
             name="workspaceURL"
             className="rounded-md border-2 p-2"
-            placeholder="https://my-workspace.com"
+            placeholder="http://my-workspace.com"
           />
         </div>
         <ErrorMessage name="workspaceURL" render={renderError} />

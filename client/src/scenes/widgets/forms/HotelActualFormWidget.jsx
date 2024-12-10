@@ -124,9 +124,9 @@ const HotelActualFormWidget = ({ propertyName, propertyCode, propertyId }) => {
   //setSessionTarget({...initialValuesTarget});
   //
   const getBudget = async () => {
-    //"https://pragati-backend.com/",
+    //"http://localhost:4000/",
     const response = await fetch(
-      `https://pragati-backend.com/actual?propertyCode=${propertyCode}&actualYear=${new Date().getFullYear()}&actualMonth=${
+      `http://localhost:4000/actual?propertyCode=${propertyCode}&actualYear=${new Date().getFullYear()}&actualMonth=${
         monthsArray[currentMonth]
       } `,
       {
@@ -171,7 +171,7 @@ const HotelActualFormWidget = ({ propertyName, propertyCode, propertyId }) => {
     console.log(data);
     ///
     const savedActualResponse = await fetch(
-      "https://pragati-backend.com/actual/add",
+      "http://localhost:4000/actual/add",
       //"http://localhost:4000/actual/add",
       {
         method: "POST",

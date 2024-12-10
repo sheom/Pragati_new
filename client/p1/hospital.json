@@ -4,7 +4,7 @@
     "title": "Hospital",
     "blog_title": "What's <span>New?<\/span>",
     "visit_website": {
-        "url": "https:\/\/www.peerlesshospital.com\/",
+        "url": "http:\/\/www.peerlesshospital.com\/",
         "link_text": ""
     },
     "metatags": {
@@ -14,23 +14,23 @@
         "og_description": "Peerless Hospital is one of the best hospitals in Kolkata having a team of experienced doctors providing exceptional healthcare services with 24*7 emergency services.",
         "og_determiner": "Peerless One",
         "og_image": [
-            "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-09\/hospital.jpg"
+            "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-09\/hospital.jpg"
         ],
         "og_image_alt": "Hospital",
         "og_image_height": "630",
         "og_image_secure_url": [
-            "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-09\/hospital.jpg"
+            "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-09\/hospital.jpg"
         ],
         "og_image_type": "jpeg",
         "og_image_url": [
-            "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-09\/hospital.jpg"
+            "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-09\/hospital.jpg"
         ],
         "og_image_width": "1200",
         "og_site_name": "Peerless One",
         "og_title": "Best Hospital in Kolkata | 24*7 Services | Peerless Hospital",
-        "og_url": "https:\/\/cms.peerlessone.in\/hospital",
+        "og_url": "http:\/\/cms.peerlessone.in\/hospital",
         "title": "Best Hospital in Kolkata | 24*7 Services | Peerless Hospital",
-        "canonical_url": "https:\/\/cms.peerlessone.in\/hospital",
+        "canonical_url": "http:\/\/cms.peerlessone.in\/hospital",
         "robots": "index, follow"
     },
     "banner": {
@@ -51,7 +51,7 @@
                 "title": "",
                 "width": "1820",
                 "height": "770",
-                "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-08\/hospital_banner.jpg"
+                "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-08\/hospital_banner.jpg"
             }
         ],
         "banner_icon": [
@@ -61,7 +61,7 @@
                 "title": "",
                 "width": "38",
                 "height": "38",
-                "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-06\/hospital_0.svg"
+                "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-06\/hospital_0.svg"
             }
         ],
         "banner_logo": [
@@ -71,7 +71,7 @@
                 "title": "",
                 "width": "434",
                 "height": "83",
-                "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-06\/hospital_banner_logo.webp"
+                "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-06\/hospital_banner_logo.webp"
             }
         ]
     },
@@ -101,7 +101,7 @@
                 "title": "",
                 "width": "580",
                 "height": "661",
-                "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-08\/imgpsh_fullsize_anim.png"
+                "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-08\/imgpsh_fullsize_anim.png"
             }
         ],
         "banner_logo": [
@@ -132,7 +132,7 @@
                         "title": "",
                         "width": "350",
                         "height": "170",
-                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-08\/find_doctor.jpg"
+                        "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-08\/find_doctor.jpg"
                     }
                 ],
                 "post_icon": [
@@ -142,11 +142,11 @@
                         "title": "",
                         "width": "64",
                         "height": "64",
-                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2024-04\/book-appointment.png"
+                        "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2024-04\/book-appointment.png"
                     }
                 ],
                 "post_url": {
-                    "url": "https:\/\/www.peerlesshospital.com\/doctor.php",
+                    "url": "http:\/\/www.peerlesshospital.com\/doctor.php",
                     "link_text": "Book An Appointment"
                 },
                 "is_popup": "0"
@@ -167,7 +167,7 @@
                         "title": "Diagnostic Services",
                         "width": "350",
                         "height": "170",
-                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2024-05\/diagnostic_services_pic.jpg"
+                        "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2024-05\/diagnostic_services_pic.jpg"
                     }
                 ],
                 "post_icon": [
@@ -177,11 +177,11 @@
                         "title": "",
                         "width": "64",
                         "height": "64",
-                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2024-05\/diagnostic_services.png"
+                        "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2024-05\/diagnostic_services.png"
                     }
                 ],
                 "post_url": {
-                    "url": "https:\/\/www.peerlesshospital.com\/diagnostic-services.php",
+                    "url": "http:\/\/www.peerlesshospital.com\/diagnostic-services.php",
                     "link_text": "Diagnostic Services"
                 },
                 "is_popup": "0"
@@ -202,7 +202,7 @@
                         "title": "",
                         "width": "350",
                         "height": "170",
-                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-08\/book_teleconsultation.jpg"
+                        "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-08\/book_teleconsultation.jpg"
                     }
                 ],
                 "post_icon": [
@@ -212,11 +212,11 @@
                         "title": "",
                         "width": "64",
                         "height": "64",
-                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/treleconsultation-icon.png"
+                        "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/treleconsultation-icon.png"
                     }
                 ],
                 "post_url": {
-                    "url": "https:\/\/peerless.metahos.com\/patientlogin",
+                    "url": "http:\/\/peerless.metahos.com\/patientlogin",
                     "link_text": "Book Teleconsultation"
                 },
                 "is_popup": "0"
@@ -237,7 +237,7 @@
                         "title": "",
                         "width": "350",
                         "height": "170",
-                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-08\/book_appointment.jpg"
+                        "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-08\/book_appointment.jpg"
                     }
                 ],
                 "post_icon": [
@@ -247,11 +247,11 @@
                         "title": "",
                         "width": "64",
                         "height": "64",
-                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2024-04\/doctor-icon_0.png"
+                        "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2024-04\/doctor-icon_0.png"
                     }
                 ],
                 "post_url": {
-                    "url": "https:\/\/www.peerlesshospital.com\/international-patients.php",
+                    "url": "http:\/\/www.peerlesshospital.com\/international-patients.php",
                     "link_text": "International Patients"
                 },
                 "is_popup": "0"
@@ -275,7 +275,7 @@
                         "title": "",
                         "width": "350",
                         "height": "170",
-                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-08\/surguy_package.jpg"
+                        "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-08\/surguy_package.jpg"
                     }
                 ],
                 "post_icon": [
@@ -285,11 +285,11 @@
                         "title": "",
                         "width": "64",
                         "height": "64",
-                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/surgery-icon.png"
+                        "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/surgery-icon.png"
                     }
                 ],
                 "post_url": {
-                    "url": "https:\/\/www.peerlesshospital.com\/packages.php",
+                    "url": "http:\/\/www.peerlesshospital.com\/packages.php",
                     "link_text": "Surgery Packages"
                 },
                 "is_popup": "0"
@@ -310,7 +310,7 @@
                         "title": "",
                         "width": "350",
                         "height": "170",
-                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-08\/patient_condition.jpg"
+                        "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-08\/patient_condition.jpg"
                     }
                 ],
                 "post_icon": [
@@ -320,11 +320,11 @@
                         "title": "",
                         "width": "64",
                         "height": "64",
-                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/patient-icon.png"
+                        "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/patient-icon.png"
                     }
                 ],
                 "post_url": {
-                    "url": "https:\/\/www.peerlesshospital.com\/patient-guide.php",
+                    "url": "http:\/\/www.peerlesshospital.com\/patient-guide.php",
                     "link_text": "Patient Guide"
                 },
                 "is_popup": "0"
@@ -345,7 +345,7 @@
                         "title": "",
                         "width": "350",
                         "height": "170",
-                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-08\/emergency.jpg"
+                        "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-08\/emergency.jpg"
                     }
                 ],
                 "post_icon": [
@@ -355,11 +355,11 @@
                         "title": "",
                         "width": "64",
                         "height": "64",
-                        "image_url": "https:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/emergencies-icon.png"
+                        "image_url": "http:\/\/cms.peerlessone.in\/sites\/default\/files\/2023-07\/emergencies-icon.png"
                     }
                 ],
                 "post_url": {
-                    "url": "https:\/\/www.peerlesshospital.com\/medical-department\/emergency_medicine.html",
+                    "url": "http:\/\/www.peerlesshospital.com\/medical-department\/emergency_medicine.html",
                     "link_text": "Emergencies"
                 },
                 "is_popup": "1"
